@@ -6,12 +6,12 @@ function pick {
 
   if [ -f "./solutions/$FILE" ];
   then
-      echo "$FILE exist"
       pick
   else
     cp "./tasks/$FILE" "./solutions/$FILE"
     echo -e "✅❌ $NUM\n$(cat solutions.md)" > solutions.md
     echo "Next tasks: $FILE"
+    code-insiders "./solutions/$FILE" -r
   fi
 }
 
