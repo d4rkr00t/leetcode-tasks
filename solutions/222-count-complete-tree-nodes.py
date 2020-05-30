@@ -17,4 +17,14 @@ class TreeNode:
         self.right = right
 
 def countNodes(root: TreeNode) -> int:
-    pass
+    return 1 + countNodes(root.right) + countNodes(root.left) if root else 0
+
+
+# Input:
+#     1
+#    / \
+#   2   3
+#  / \  /
+# 4  5 6
+#
+# Output: 6

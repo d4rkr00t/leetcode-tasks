@@ -10,7 +10,7 @@
 # Solution:
 # TBD
 
-def isValid(self, s: str) -> bool:
+def isValid(s: str) -> bool:
     pass
 
 print(isValid("()"), True)
