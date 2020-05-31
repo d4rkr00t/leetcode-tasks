@@ -10,7 +10,7 @@
 # Solution:
 # TBD
 
-def findKthLargest(self, nums: [int], k: int) -> int:
+def findKthLargest(nums: [int], k: int) -> int:
     pass
 
 print(findKthLargest([3,2,1,5,6,4], 2), 5)

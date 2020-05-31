@@ -15,3 +15,4 @@ def multiply(num1: str, num2: str) -> str:
 
 print(multiply("2", "3"), "6")
 print(multiply("123", "456"), "56088")
+print(multiply("0", "0"), "0")
