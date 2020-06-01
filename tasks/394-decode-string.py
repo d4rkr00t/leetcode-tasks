@@ -16,3 +16,4 @@ def decodeString(s: str) -> str:
 print(decodeString("3[a]2[bc]"), "aaabcbc")
 print(decodeString("3[a2[c]]"), "accaccacc")
 print(decodeString("2[abc]3[cd]ef"), "abcabccdcdcdef")
+print(decodeString("100[leetcode]"))
