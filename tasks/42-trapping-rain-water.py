@@ -10,7 +10,7 @@
 # Solution:
 # TBD
 
-def trap(self, height: [int]) -> int:
+def trap(height: [int]) -> int:
     pass
 
-print(tap([0,1,0,2,1,0,1,3,2,1,2,1]), 6)
+print(trap([0,1,0,2,1,0,1,3,2,1,2,1]), 6)
