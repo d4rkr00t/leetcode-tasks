@@ -16,7 +16,7 @@ def nextPermutation(nums: [int]) -> None:
     """
     pass
 
-print(nextPermutation([1,2,3]}, [1,3,2])
-print(nextPermutation([3,2,1]}, [1,2,3])
-print(nextPermutation([1,1,5]}, [1,5,1])
+print(nextPermutation([1,2,3]), [1,3,2])
+print(nextPermutation([3,2,1]), [1,2,3])
+print(nextPermutation([1,1,5]), [1,5,1])
 
