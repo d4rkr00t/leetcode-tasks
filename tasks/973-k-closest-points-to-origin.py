@@ -10,7 +10,7 @@
 # Solution:
 # TBD
 
-def kClosest(self, points: [[int]], K: int) -> [[int]]:
+def kClosest(points: [[int]], K: int) -> [[int]]:
     pass
 
 print(kClosest(points = [[1,3],[-2,2]], K = 1), [[-2,2]])
