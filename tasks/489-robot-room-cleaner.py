@@ -42,15 +42,5 @@
 #        :rtype void
 #        """
 
-def cleanRoom(room, row, col):
+def cleanRoom(robot):
     pass
-
-print(cleanRoom(room = [
-  [1,1,1,1,1,0,1,1],
-  [1,1,1,1,1,0,1,1],
-  [1,0,1,1,1,1,1,1],
-  [0,0,0,1,0,0,0,0],
-  [1,1,1,1,1,1,1,1]
-],
-row = 1,
-col = 3))

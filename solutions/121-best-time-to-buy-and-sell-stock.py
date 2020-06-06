@@ -4,8 +4,8 @@
 #
 # Tags: Amazon, Facebook, Microsoft, Google
 #
-# Time:  TBD
-# Space: TBD
+# Time:  O(n)
+# Space: O(1)
 #
 # Solution:
 # TBD
