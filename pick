@@ -6,7 +6,7 @@ function pick {
   SOLVES="$(ls solutions | wc -l)"
   TASKS="$(ls tasks | wc -l)"
 
-  if [SOLVES == TASKS];
+  if [[ "$SOLVES" == "$TASKS" ]];
   then
     echo "🎉 Everything is solved!"
     exit 0
