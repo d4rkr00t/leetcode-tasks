@@ -3,6 +3,14 @@
 function pick {
   FILE="$(find ./tasks -type f | shuf -n 1 | sed -e 's/.\/tasks\///')"
   NUM="$(echo $FILE | sed -e 's/[^0-9]//g')"
+  SOLVES="$(ls solutions | wc -l)"
+  TASKS="$(ls tasks | wc -l)"
+
+  if [SOLVES == TASKS];
+  then
+    echo "🎉 Everything is solved!"
+    exit 0
+  fi
 
   if [ -f "./solutions/$FILE" ];
   then
