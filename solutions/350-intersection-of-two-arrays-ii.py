@@ -10,9 +10,19 @@
 # Solution:
 # TBD
 
+import collections
+
 
 def intersect(nums1: [int], nums2: [int]) -> [int]:
-    pass
+    count = collections.Counter(nums2)
+    ans = []
+
+    for n in nums1:
+        if n in count and count[n] > 0:
+            ans.append(n)
+            count[n] -= 1
+
+    return ans
 
 
 print(intersect(nums1=[1, 2, 2, 1], nums2=[2, 2]), [2, 2])

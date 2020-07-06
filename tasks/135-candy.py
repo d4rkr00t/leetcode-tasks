@@ -10,8 +10,10 @@
 # Solution:
 # TBD
 
+
 def candy(ratings: [int]) -> int:
     pass
 
-print(candy([1,0,2]), 5)
-print(candy([1,2,2], 4)
+
+print(candy([1, 0, 2]), 5)
+print(candy([1, 2, 2]), 4)
