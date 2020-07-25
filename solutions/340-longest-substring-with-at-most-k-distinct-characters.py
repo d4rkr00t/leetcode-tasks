@@ -10,8 +10,27 @@
 # Solution:
 # TBD
 
+import collections
+
+
 def lengthOfLongestSubstringKDistinct(s: str, k: int) -> int:
-    pass
+    counter = collections.Counter()
+    j = 0
+    ans = 0
+
+    for i, c in enumerate(s):
+        counter[c] += 1
+
+        while len(counter.keys()) > k:
+            counter[s[j]] -= 1
+            if counter[s[j]] == 0:
+                del counter[s[j]]
+
+            j += 1
+
+        ans = max(ans, i-j+1)
+
+    return ans
 
 
 print(lengthOfLongestSubstringKDistinct("eceba", 2), 3)
