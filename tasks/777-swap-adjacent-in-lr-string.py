@@ -10,7 +10,8 @@
 # Solution:
 # TBD
 
-def canTransform( tart: str, end: str) -> bool:
+def canTransform(start: str, end: str) -> bool:
     pass
 
-print(canTransform(start = "RXXLRXRXL", end = "XRLXXRRLX"), True)
+
+print(canTransform(start="RXXLRXRXL", end="XRLXXRRLX"), True)
