@@ -21,4 +21,20 @@ class TreeNode:
 
 
 def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
-    pass
+    table = {}
+
+    def dfs(node, level):
+        nonlocal table
+
+        if not node:
+            return
+
+        table[level] = table.get(level, [])
+        table[level].append(node.val)
+
+        dfs(node.left, level - 1)
+        dfs(node.right, level + 1)
+
+    dfs(root, 0)
+
+    return [table[key] for key in sorted(table.keys())]
