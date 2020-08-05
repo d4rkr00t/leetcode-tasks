@@ -10,12 +10,16 @@
 # Solution:
 # TBD
 
-def findWords(board: [[str]], words: [str]) -> [str]:
+from typing import List
+
+
+def findWords(board: List[List[str]], words: List[str]) -> List[str]:
     pass
 
+
 print(findWords([
-  ['o','a','a','n'],
-  ['e','t','a','e'],
-  ['i','h','k','r'],
-  ['i','f','l','v']
-], ["oath","pea","eat","rain"]), ["oath", "eat"])
+    ['o', 'a', 'a', 'n'],
+    ['e', 't', 'a', 'e'],
+    ['i', 'h', 'k', 'r'],
+    ['i', 'f', 'l', 'v']
+], ["oath", "pea", "eat", "rain"]), ["oath", "eat"])

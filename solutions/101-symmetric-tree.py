@@ -20,4 +20,13 @@ class TreeNode:
 
 
 def isSymmetric(root: TreeNode) -> bool:
-    pass
+    def check(node1, node2):
+        if not node1 and not node2:
+            return True
+
+        if node1 == None or node2 == None:
+            return False
+
+        return node1.val == node2.val and check(node1.right, node2.left) and check(node2.right, node1.left)
+
+    return check(root, root)

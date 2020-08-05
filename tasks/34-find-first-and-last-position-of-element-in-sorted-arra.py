@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def searchRange(nums: [int], target: int) -> [int]:
+from typing import List
+
+
+def searchRange(nums: List[int], target: int) -> List[int]:
     pass
 
-print(searchRange(nums = [5,7,7,8,8,10], target = 8), [2,3])
-print(searchRange(nums = [5,7,7,8,8,10], target = 6), [-1,-1])
+
+print(searchRange(nums=[5, 7, 7, 8, 8, 10], target=8), [3, 4])
+print(searchRange(nums=[5, 7, 7, 8, 8, 10], target=6), [-1, -1])
