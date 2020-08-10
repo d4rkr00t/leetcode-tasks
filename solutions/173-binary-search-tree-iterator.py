@@ -21,17 +21,28 @@ class TreeNode:
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
-        pass
+        self.root = root
+        self.stack = []
+        self.__process__(root)
+
+    def __process__(self, node):
+        while node:
+            self.stack.append(node)
+            node = node.left
 
     def next(self) -> int:
         """
         @return the next smallest number
         """
+        val = self.stack.pop()
+        self.__process__(val.right)
+        return val.val
 
     def hasNext(self) -> bool:
         """
         @return whether we have a next smallest number
         """
+        return len(self.stack) > 0
 
 
 # Your BSTIterator object will be instantiated and called as such:
