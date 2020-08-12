@@ -10,8 +10,13 @@
 # Solution:
 # TBD
 
-def ladderLength(beginWord: str, endWord: str, wordList: [str]) -> int:
+from typing import List
+
+
+def ladderLength(beginWord: str, endWord: str, wordList: List[str]) -> int:
     pass
 
-print(ladderLength("hit", "cog", ["hot","dot","dog","lot","log","cog"]), 5)
-print(ladderLength("hit", "cog", ["hot","dot","dog","lot","log"]), 0)
+
+print(ladderLength("hit", "cog", [
+      "hot", "dot", "dog", "lot", "log", "cog"]), 5)
+print(ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log"]), 0)
