@@ -21,4 +21,23 @@ class TreeNode:
 
 
 def rightSideView(self, root: TreeNode) -> List[int]:
-    pass
+    if not root:
+        return []
+
+    view = []
+    stack = [root]
+
+    while stack:
+        view.append(stack[-1].val)
+        next_layer = []
+
+        for node in stack:
+            if node.left:
+                next_layer.append(node.left)
+
+            if node.right:
+                next_layer.append(node.right)
+
+        stack = next_layer
+
+    return view

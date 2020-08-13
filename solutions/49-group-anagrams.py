@@ -14,7 +14,14 @@ from typing import List
 
 
 def groupAnagrams(strs: List[str]) -> List[List[str]]:
-    pass
+    groups = {}
+
+    for s in strs:
+        ss = str(sorted(s))
+        groups[ss] = groups.get(ss, [])
+        groups[ss].append(s)
+
+    return groups.values()
 
 
 print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]), [
