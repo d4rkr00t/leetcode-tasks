@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def findAnagrams(s: str, p: str) -> [int]:
+from typing import List
+
+
+def findAnagrams(s: str, p: str) -> List[int]:
     pass
 
-print(findAnagrams(s = "cbaebabacd", p = "abc"), [0, 6])
-print(findAnagrams(s = "abab", p = "ab"), [0, 1, 2])
+
+print(findAnagrams(s="cbaebabacd", p="abc"), [0, 6])
+print(findAnagrams(s="abab", p="ab"), [0, 1, 2])
