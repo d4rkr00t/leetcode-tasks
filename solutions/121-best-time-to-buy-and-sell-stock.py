@@ -14,7 +14,15 @@ from typing import List
 
 
 def maxProfit(prices: List[int]) -> int:
-    pass
+    lo = ans = 0
+
+    for hi, p in enumerate(prices):
+        if prices[lo] > p:
+            lo = hi
+
+        ans = max(ans, p - prices[lo])
+
+    return ans
 
 
 print(maxProfit([7, 1, 5, 3, 6, 4]), 5)

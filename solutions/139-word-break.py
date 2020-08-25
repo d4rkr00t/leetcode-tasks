@@ -14,7 +14,24 @@ from typing import List
 
 
 def wordBreak(s: str, wordDict: List[str]) -> bool:
-    pass
+    cache = {}
+
+    def segment(offset):
+        if offset in cache:
+            return cache[offset]
+
+        if offset == len(s):
+            return True
+
+        for w in wordDict:
+            if s.startswith(w, offset) and segment(offset + len(w)):
+                cache[offset] = True
+                return True
+
+        cache[offset] = False
+        return False
+
+    return segment(0)
 
 
 print(wordBreak(s="leetcode", wordDict=["leet", "code"]), True)
