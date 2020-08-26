@@ -10,12 +10,16 @@
 # Solution:
 # TBD
 
-def findLadders(beginWord: str, endWord: str, wordList: [str]) -> [[str]]:
+from typing import List
+
+
+def findLadders(beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
     pass
 
-print(findLadders("hit", "cog", ["hot","dot","dog","lot","log","cog"]), [
-    ["hit","hot","dot","dog","cog"],
-    ["hit","hot","lot","log","cog"]
+
+print(findLadders("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]), [
+    ["hit", "hot", "dot", "dog", "cog"],
+    ["hit", "hot", "lot", "log", "cog"]
 ])
 
-print(findLadders("hit", "cog", ["hot","dot","dog","lot","log"]), [])
+print(findLadders("hit", "cog", ["hot", "dot", "dog", "lot", "log"]), [])
