@@ -14,7 +14,12 @@ from typing import List
 
 
 def missingNumber(nums: List[int]) -> int:
-    pass
+    n = len(nums)
+
+    for i, x in enumerate(nums):
+        n = n ^ x ^ i
+
+    return n
 
 
 print(missingNumber([3, 0, 1]), 2)

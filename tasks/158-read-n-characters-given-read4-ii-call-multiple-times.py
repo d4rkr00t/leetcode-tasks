@@ -10,7 +10,13 @@
 # Solution:
 # TBD
 
-def read(buf: List[str], n: int) -> int:
+from typing import List
+
+
+def read4(buf4: List[str]) -> int:
     pass
 
 
+class Solution:
+    def read(self, buf: List[str], n: int) -> int:
+        pass
