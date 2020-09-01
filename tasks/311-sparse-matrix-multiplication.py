@@ -13,7 +13,7 @@
 from typing import List
 
 
-def multiply(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
+def multiply(A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
     pass
 
 
