@@ -22,3 +22,23 @@ def flatten(root: TreeNode) -> None:
     """
     Do not return anything, modify root in-place instead.
     """
+    next = None
+
+    def flat(root):
+        nonlocal next
+        if not root:
+            return None
+
+        if next:
+            next.right = root
+
+        next = root
+        left = root.left
+        right = root.right
+
+        root.left = None
+
+        flat(left)
+        flat(right)
+
+    flat(root)
