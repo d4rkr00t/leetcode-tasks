@@ -10,10 +10,15 @@
 # Solution:
 # TBD
 
-def accountsMerge(accounts: [[str]]) -> [[str]]:
+from typing import List
+
+
+def accountsMerge(accounts: List[List[str]]) -> List[List[str]]:
     pass
+
 
 print(accountsMerge(
     [["John", "johnsmith@mail.com", "john00@mail.com"], ["John", "johnnybravo@mail.com"], ["John", "johnsmith@mail.com", "john_newyork@mail.com"], ["Mary", "mary@mail.com"]]),
-    [["John", 'john00@mail.com', 'john_newyork@mail.com', 'johnsmith@mail.com'],  ["John", "johnnybravo@mail.com"], ["Mary", "mary@mail.com"]]
+    [["John", 'john00@mail.com', 'john_newyork@mail.com', 'johnsmith@mail.com'],
+        ["John", "johnnybravo@mail.com"], ["Mary", "mary@mail.com"]]
 )
