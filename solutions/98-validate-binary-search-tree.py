@@ -19,4 +19,13 @@ class TreeNode:
 
 
 def isValidBST(root: TreeNode) -> bool:
-    pass
+    def validate(node, min, max):
+        if not node:
+            return True
+
+        if min >= node.val or node.val >= max:
+            return False
+
+        return validate(node.left, min, node.val) and validate(node.right, node.val, max)
+
+    return validate(root, float("-inf"), float("inf"))

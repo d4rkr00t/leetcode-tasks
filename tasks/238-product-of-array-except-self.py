@@ -10,7 +10,11 @@
 # Solution:
 # TBD
 
-def productExceptSelf(nums: [int]) -> [int]:
+from typing import List
+
+
+def productExceptSelf(nums: List[int]) -> List[int]:
     pass
 
-print(productExceptSelf([1,2,3,4]), [24,12,8,6])
+
+print(productExceptSelf([1, 2, 3, 4]), [24, 12, 8, 6])
