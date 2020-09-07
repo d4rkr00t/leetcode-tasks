@@ -10,7 +10,11 @@
 # Solution:
 # TBD
 
-def splitArray(nums: [int], m: int) -> int:
+from typing import List
+
+
+def splitArray(nums: List[int], m: int) -> int:
     pass
 
-print(splitArray([7,2,5,10,8], 2), 18)
+
+print(splitArray([7, 2, 5, 10, 8], 2), 18)
