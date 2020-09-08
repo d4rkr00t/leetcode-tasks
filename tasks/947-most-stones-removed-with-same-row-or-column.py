@@ -18,4 +18,4 @@ def removeStones(stones: List[List[int]]) -> int:
 
 
 print(removeStones([[0, 0], [0, 2], [1, 1], [2, 0], [2, 2]]), 3)
-print(removeStones([[0, 0]], 0))
+print(removeStones([[0, 0]]), 0)

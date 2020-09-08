@@ -10,9 +10,12 @@
 # Solution:
 # TBD
 
-def letterCombinations(digits: str) -> [str]:
+from typing import List
+
+
+def letterCombinations(digits: str) -> List[str]:
     pass
 
-print(letterCombinations("23"), ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"])
 
-
+print(letterCombinations("23"), ["ad", "ae",
+                                 "af", "bd", "be", "bf", "cd", "ce", "cf"])
