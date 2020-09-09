@@ -14,7 +14,14 @@ from typing import List
 
 
 def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
-    pass
+    res = set()
+    s_n1 = set(nums1)
+
+    for n in nums2:
+        if n in s_n1:
+            res.add(n)
+
+    return list(res)
 
 
 print(intersection(nums1=[1, 2, 2, 1], nums2=[2, 2]), [2])
