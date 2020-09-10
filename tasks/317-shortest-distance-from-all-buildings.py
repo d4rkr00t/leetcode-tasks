@@ -10,7 +10,11 @@
 # Solution:
 # TBD
 
-def shortestDistance(grid: [[int]]) -> int:
+from typing import List
+
+
+def shortestDistance(grid: List[List[int]]) -> int:
     pass
 
-print(shortestDistance([[1,0,2,0,1],[0,0,0,0,0],[0,0,1,0,0]]), 7)
+
+print(shortestDistance([[1, 0, 2, 0, 1], [0, 0, 0, 0, 0], [0, 0, 1, 0, 0]]), 7)
