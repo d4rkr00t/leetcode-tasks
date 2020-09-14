@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def removeInvalidParentheses(s: str) -> [str]:
+from typing import List
+
+
+def removeInvalidParentheses(s: str) -> List[str]:
     pass
+
 
 print(removeInvalidParentheses("()())()"), ["()()()", "(())()"])
 print(removeInvalidParentheses("(a)())()"), ["(a)()()", "(a())()"])

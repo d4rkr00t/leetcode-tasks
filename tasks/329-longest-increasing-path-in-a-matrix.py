@@ -10,17 +10,21 @@
 # Solution:
 # TBD
 
-def longestIncreasingPath(matrix: [[int]]) -> int:
+from typing import List
+
+
+def longestIncreasingPath(matrix: List[List[int]]) -> int:
     pass
 
+
 print(longestIncreasingPath([
-  [9,9,4],
-  [6,6,8],
-  [2,1,1]
+    [9, 9, 4],
+    [6, 6, 8],
+    [2, 1, 1]
 ]), 4)
 
 print(longestIncreasingPath([
-  [3,4,5],
-  [3,2,6],
-  [2,2,1]
+    [3, 4, 5],
+    [3, 2, 6],
+    [2, 2, 1]
 ]), 4)
