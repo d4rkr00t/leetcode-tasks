@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def maxProduct(nums: [int]) -> int:
+from typing import List
+
+
+def maxProduct(nums: List[int]) -> int:
     pass
 
-print(maxProduct([2,3,-2,4]), 6)
-print(maxProduct([-2,0,-1]), 0)
+
+print(maxProduct([2, 3, -2, 4]), 6)
+print(maxProduct([-2, 0, -1]), 0)
