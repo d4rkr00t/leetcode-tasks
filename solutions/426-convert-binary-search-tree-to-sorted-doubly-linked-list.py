@@ -18,4 +18,31 @@ class Node:
 
 
 def treeToDoublyList(self, root: Node) -> Node:
-    pass
+    first = None
+    last = None
+
+    def inorder(node):
+        nonlocal first, last
+
+        if not node:
+            return None
+
+        inorder(node.left)
+
+        if last:
+            last.right = node
+            node.left = last
+        else:
+            first = node
+
+        last = node
+
+        inorder(node.right)
+
+    inorder(root)
+
+    if first:
+        last.right = first
+        first.left = last
+
+    return first

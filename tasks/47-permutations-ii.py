@@ -10,11 +10,15 @@
 # Solution:
 # TBD
 
-def permuteUnique(nums: [int]) -> [[int]]:
+from typing import List
+
+
+def permuteUnique(nums: List[int]) -> List[List[int]]:
     pass
 
-print(permuteUnique([1,1,2]), [
-    [1,1,2],
-    [1,2,1],
-    [2,1,1]
+
+print(permuteUnique([1, 1, 2]), [
+    [1, 1, 2],
+    [1, 2, 1],
+    [2, 1, 1]
 ])
