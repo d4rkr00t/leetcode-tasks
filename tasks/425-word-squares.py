@@ -10,32 +10,32 @@
 # Solution:
 # TBD
 
-def wordSquares(words: [str]) -> [[str]]:
+from typing import List
+
+
+def wordSquares(words: List[str]) -> List[List[str]]:
     pass
 
-print(wordSquares(["area","lead","wall","lady","ball"]), [
-  [ "wall",
-    "area",
-    "lead",
-    "lady"
-  ],
-  [ "ball",
-    "area",
-    "lead",
-    "lady"
-  ]
+
+print(wordSquares(["area", "lead", "wall", "lady", "ball"]), [
+    ["wall",
+     "area",
+     "lead",
+     "lady"],
+    ["ball",
+     "area",
+     "lead",
+     "lady"]
 ])
 
 
-print(wordSquares(["abat","baba","atan","atal"]), [
-  [ "baba",
-    "abat",
-    "baba",
-    "atan"
-  ],
-  [ "baba",
-    "abat",
-    "baba",
-    "atal"
-  ]
+print(wordSquares(["abat", "baba", "atan", "atal"]), [
+    ["baba",
+     "abat",
+     "baba",
+     "atan"],
+    ["baba",
+     "abat",
+     "baba",
+     "atal"]
 ])

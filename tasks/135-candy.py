@@ -11,7 +11,10 @@
 # TBD
 
 
-def candy(ratings: [int]) -> int:
+from typing import List
+
+
+def candy(ratings: List[int]) -> int:
     pass
 
 
