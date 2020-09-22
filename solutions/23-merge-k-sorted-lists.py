@@ -11,7 +11,6 @@
 # TBD
 
 from typing import List
-import heapq
 
 
 class ListNode:
@@ -21,21 +20,4 @@ class ListNode:
 
 
 def mergeKLists(lists: List[ListNode]) -> ListNode:
-    if not lists:
-        return []
-
-    hq = []
-    for l in lists:
-        while l:
-            heapq.heappush((l.val, l))
-            l = l.next
-
-    head = cur = heapq.heappop(hq)
-
-    while hq:
-        tmp = heapq.heappop(hq)
-        cur.next = tmp
-        tmp.next = None
-        cur = cur.next
-
-    return head
+    pass

@@ -11,10 +11,19 @@
 # TBD
 
 from typing import List
+import heapq
 
 
 def findKthLargest(nums: List[int], k: int) -> int:
-    pass
+    hq = []
+
+    for n in nums:
+        heapq.heappush(hq, n)
+
+        if len(hq) > k:
+            heapq.heappop(hq)
+
+    return heapq.nlargest(k, hq)[-1]
 
 
 print(findKthLargest([3, 2, 1, 5, 6, 4], 2), 5)
