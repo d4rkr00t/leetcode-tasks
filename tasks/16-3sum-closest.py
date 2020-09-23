@@ -10,7 +10,11 @@
 # Solution:
 # TBD
 
-def threeSumClosest(nums: [int], target: int) -> int:
+from typing import List
+
+
+def threeSumClosest(nums: List[int], target: int) -> int:
     pass
 
-print(threeSumClosest(nums = [-1,2,1,-4], target = 1), 2)
+
+print(threeSumClosest(nums=[-1, 2, 1, -4], target=1), 2)
