@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def alienOrder(words: [str]) -> str:
+from typing import List
+
+
+def alienOrder(words: List[str]) -> str:
     pass
+
 
 print(alienOrder(["wrt", "wrf", "er", "ett", "rftt"]), "wertf")
 print(alienOrder(["z", "x"]), "zx")
