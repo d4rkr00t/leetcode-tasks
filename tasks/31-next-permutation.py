@@ -10,13 +10,16 @@
 # Solution:
 # TBD
 
-def nextPermutation(nums: [int]) -> None:
+from typing import List
+
+
+def nextPermutation(nums: List[int]) -> None:
     """
     Do not return anything, modify nums in-place instead.
     """
     pass
 
-print(nextPermutation([1,2,3]), [1,3,2])
-print(nextPermutation([3,2,1]), [1,2,3])
-print(nextPermutation([1,1,5]), [1,5,1])
 
+print(nextPermutation([1, 2, 3]), [1, 3, 2])
+print(nextPermutation([3, 2, 1]), [1, 2, 3])
+print(nextPermutation([1, 1, 5]), [1, 5, 1])
