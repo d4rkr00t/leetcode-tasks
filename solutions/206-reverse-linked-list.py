@@ -18,4 +18,13 @@ class ListNode:
 
 
 def reverseList(head: ListNode) -> ListNode:
-    pass
+    prev = None
+    cur = head
+
+    while cur:
+        tmp = cur.next
+        cur.next = prev
+        prev = cur
+        cur = tmp
+
+    return prev
