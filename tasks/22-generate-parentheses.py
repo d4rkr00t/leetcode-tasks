@@ -11,7 +11,10 @@
 # TBD
 
 
-def generateParenthesis(n: int) -> [str]:
+from typing import List
+
+
+def generateParenthesis(n: int) -> List[str]:
     pass
 
 
