@@ -14,7 +14,15 @@ from typing import List
 
 
 def twoSum(nums: List[int], target: int) -> List[int]:
-    pass
+    table = {}
+
+    for i, n in enumerate(nums):
+        if target - n in table:
+            return [table[target-n], i]
+
+        table[n] = i
+
+    return None
 
 
 print(twoSum(nums=[2, 7, 11, 15], target=9), [0, 1])
