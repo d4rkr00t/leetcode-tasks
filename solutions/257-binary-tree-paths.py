@@ -22,4 +22,19 @@ class TreeNode:
 
 
 def binaryTreePaths(self, root: TreeNode) -> List[str]:
-    pass
+    ans = []
+
+    def dfs(node, path):
+        if not node:
+            return
+
+        path.append(str(node.val))
+        if not node.left and not node.right:
+            ans.append("->".join(path))
+
+        dfs(node.left, [] + path)
+        dfs(node.right, [] + path)
+
+    dfs(root, [])
+
+    return ans
