@@ -10,5 +10,8 @@
 # Solution:
 # TBD
 
-def numIslands(self, grid: [[str]]) -> int:
+from typing import List
+
+
+def numIslands(self, grid: List[List[str]]) -> int:
     pass

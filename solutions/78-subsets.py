@@ -14,12 +14,7 @@ from typing import List
 
 
 def subsets(nums: List[int]) -> List[List[int]]:
-    out = [[]]
-
-    for n in nums:
-        out += [s + [n] for s in out]
-
-    return out
+    pass
 
 
 print(subsets([1, 2, 3]), [
@@ -32,8 +27,3 @@ print(subsets([1, 2, 3]), [
     [1, 2],
     []
 ])
-
-# []
-# [] [1]
-# [] [1] [1, 2] [2]
-# [] [1] [1, 2] [2] [3] [1,3] [1, 2, 3] [2 3]
