@@ -19,4 +19,4 @@ def removeInvalidParentheses(s: str) -> List[str]:
 
 print(removeInvalidParentheses("()())()"), ["()()()", "(())()"])
 print(removeInvalidParentheses("(a)())()"), ["(a)()()", "(a())()"])
-print(removeInvalidParentheses(")("), [])
+print(removeInvalidParentheses(")("), [""])
