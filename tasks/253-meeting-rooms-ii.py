@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def minMeetingRooms(intervals: [[int]]) -> int:
+from typing import List
+
+
+def minMeetingRooms(intervals: List[List[int]]) -> int:
     pass
 
-print(minMeetingRooms([[0, 30],[5, 10],[15, 20]]), 2)
-print(minMeetingRooms([[7,10],[2,4]]), 1)
+
+print(minMeetingRooms([[0, 30], [5, 10], [15, 20]]), 2)
+print(minMeetingRooms([[7, 10], [2, 4]]), 1)
