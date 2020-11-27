@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 # medium
 #
-# Tags:
+# Tags: Facebook, Microsoft
 #
 # Time:  TBD
 # Space: TBD
