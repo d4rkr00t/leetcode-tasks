@@ -11,6 +11,7 @@
 # TBD
 
 from typing import List
+from Queue import PriorityQueue
 
 
 class ListNode:
@@ -20,4 +21,20 @@ class ListNode:
 
 
 def mergeKLists(lists: List[ListNode]) -> ListNode:
-    pass
+    if not lists:
+        return None
+
+    q = PriorityQueue()
+
+    for l in lists:
+        while l:
+            q.put((l.val, l))
+            l = l.next
+
+    dummy = cur = ListNode()
+
+    while not q.empty():
+        (_, cur.next) = q.get()
+        cur = cur.next
+
+    return dummy.next
