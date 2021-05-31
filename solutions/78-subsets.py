@@ -4,17 +4,22 @@
 #
 # Tags: Facebook, Amazon, Google
 #
-# Time:  TBD
-# Space: TBD
+# Time:  O(n*2^n)
+# Space: O(n*2^n)
 #
 # Solution:
-# TBD
+# Bruteforce
 
 from typing import List
 
 
 def subsets(nums: List[int]) -> List[List[int]]:
-    pass
+    out = [[]]
+
+    for n in nums:
+        out += [x + [n] for x in out]
+
+    return out
 
 
 print(subsets([1, 2, 3]),
