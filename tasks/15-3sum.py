@@ -10,10 +10,11 @@
 # Solution:
 # TBD
 
-def threeSum(nums: [int]) -> [[int]]:
+from typing import List
+
+
+def threeSum(nums: List[int]) -> List[List[int]]:
     pass
 
-print(threeSum([-1, 0, 1, 2, -1, -4]), [
-  [-1, 0, 1],
-  [-1, -1, 2]
-])
+
+print(threeSum([-1, 0, 1, 2, -1, -4]), [[-1, 0, 1], [-1, -1, 2]])
