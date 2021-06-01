@@ -10,7 +10,11 @@
 # Solution:
 # TBD
 
-def findStrobogrammatic(n: int) -> [str]:
+from typing import List
+
+
+def findStrobogrammatic(n: int) -> List[str]:
     pass
 
-print(findStrobogrammatic(2), ["11","69","88","96"])
+
+print(findStrobogrammatic(2), ["11", "69", "88", "96"])
