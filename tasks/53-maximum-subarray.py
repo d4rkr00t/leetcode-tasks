@@ -10,8 +10,11 @@
 # Solution:
 # TBD
 
+from typing import List
 
-def maxSubArray(nums: [int]) -> int:
+
+def maxSubArray(nums: List[int]) -> int:
     pass
 
-print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]), 6)
+
+print(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]), 6)
