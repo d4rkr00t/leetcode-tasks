@@ -10,8 +10,12 @@
 # Solution:
 # TBD
 
-def canFinish(numCourses: int, prerequisites: [[int]]) -> bool:
+from typing import List
+
+
+def canFinish(numCourses: int, prerequisites: List[List[int]]) -> bool:
     pass
 
-print(canFinish(numCourses = 2, prerequisites = [[1,0]]), True)
-print(canFinish(numCourses = 2, prerequisites = [[1,0],[0,1]]), False)
+
+print(canFinish(numCourses=2, prerequisites=[[1, 0]]), True)
+print(canFinish(numCourses=2, prerequisites=[[1, 0], [0, 1]]), False)
