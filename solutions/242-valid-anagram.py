@@ -1,0 +1,19 @@
+# Valid Anagram
+# https://leetcode.com/problems/valid-anagram/
+# easy
+#
+# Tags: Amazon, Facebook, Google
+#
+# Time:  O(n*log(n))
+# Space: O(1)
+#
+# Solution:
+# TBD
+
+
+def isAnagram(s: str, t: str) -> bool:
+    return sorted(s) == sorted(t)
+
+
+print(isAnagram(s="anagram", t="nagaram"), True)
+print(isAnagram(s="rat", t="car"), False)
