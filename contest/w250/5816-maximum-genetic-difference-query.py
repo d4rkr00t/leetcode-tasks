@@ -1,5 +1,5 @@
 # Maximum Genetic Difference Query
-# https://leetcode.com/contest/weekly-contest-250/problems/maximum-genetic-difference-query/
+# https://leetcode.com/problems/maximum-genetic-difference-query/
 # hard
 #
 # Tags:
@@ -11,22 +11,51 @@
 # TBD
 
 from typing import List
+from collections import defaultdict
 
 
-def maxGeneticDifference(parents: List[int],
-                         queries: List[List[int]]) -> List[int]:
-    def find(i, val):
-        cur = val ^ i
-        if parents[i] != -1:
-            return max(cur, find(parents[i], val))
+class Trie:
+    def __init__(self):
+        self.root = {-1: 0}
 
-        return cur
+    def insert(self, num, f):
+        d = self.root
+        for i in range(18, -1, -1):
+            bit = (num >> i) & 1
+            d = d.setdefault(bit, dict())
+            d[-1] = d.get(-1, 0) + f
 
-    ans = []
+    def find(self, num):
+        node = self.root
+        res = 0
+        for i in range(18, -1, -1):
+            bit = (num >> i) & 1
+            desired = 1 - bit if 1 - bit in node and node[1 -
+                                                          bit][-1] > 0 else bit
+            res += (desired ^ bit) << i
+            node = node[desired]
+        return res
 
-    for i, v in queries:
-        ans.append(find(i, v))
 
+def maxGeneticDifference(parents, queries):
+    Q, graph = defaultdict(list), defaultdict(list)
+    for i, (node, val) in enumerate(queries):
+        Q[node].append((i, val))
+
+    for i, x in enumerate(parents):
+        graph[x].append(i)
+
+    ans, trie = [-1 for _ in queries], Trie()
+
+    def dfs(node):
+        trie.insert(node, 1)
+        for i, val in Q[node]:
+            ans[i] = trie.find(val)
+        for neib in graph[node]:
+            dfs(neib)
+        trie.insert(node, -1)
+
+    dfs(graph[-1][0])
     return ans
 
 
