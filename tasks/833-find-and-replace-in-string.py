@@ -13,11 +13,18 @@
 from typing import List
 
 
-def findReplaceString(S: str, indexes: List[int], sources: List[str], targets: List[str]) -> str:
+def findReplaceString(s: str, indices: List[int], sources: List[str],
+                      targets: List[str]) -> str:
     pass
 
 
-print(findReplaceString(S="abcd", indexes=[0, 2], sources=[
-      "a", "cd"], targets=["eee", "ffff"]), "eeebffff")
-print(findReplaceString(S="abcd", indexes=[0, 2], sources=[
-      "ab", "ec"], targets=["eee", "ffff"]), "eeecd")
+print(
+    findReplaceString(s="abcd",
+                      indices=[0, 2],
+                      sources=["a", "cd"],
+                      targets=["eee", "ffff"]), "eeebffff")
+print(
+    findReplaceString(s="abcd",
+                      indices=[0, 2],
+                      sources=["ab", "ec"],
+                      targets=["eee", "ffff"]), "eeecd")
