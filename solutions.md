@@ -1,3 +1,6 @@
+✅ 283
+✅ 12
+✅ https://leetcode.com/problems/count-vowels-permutation/
 ✅ 8
 ✅ 2
 ❌ 282
@@ -195,7 +198,7 @@ Solved: 108, Used help: 41
 
 ❌ 76
 ✅ 973
-✅ 681
+✓� 681
 ❌ 25
 ❌ 296
 ✅ 299
@@ -364,7 +367,7 @@ Solved: 95, Used help: 51
 ✅ 222
 ✅ 257
 ❌ 777
-✅ 206
+✓� 206
 ✅ 1
 ✅ 57
 ✅ 159
