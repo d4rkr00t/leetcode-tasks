@@ -1,4 +1,8 @@
-✅❌ https://leetcode.com/problems/random-pick-with-weight/
+✅❌ https://leetcode.com/problems/guess-the-word/
+❌ 939 <- TODO: breakdown
+✅ 124
+✅ 49
+✅ https://leetcode.com/problems/random-pick-with-weight/
 ✅ 29
 ✅ https://leetcode.com/problems/range-sum-of-bst/
 ❌ 809
@@ -58,7 +62,7 @@
 
 ––––––––––––––––––––––––––––––––––––––––
 Solved: 119, Used help: 30
-––––––––––––––––––––––––––––––––––––​�–––
+––––––––––––––‗�–––––––––––––––––––––​�–––
 
 ✅ 350
 ❌ 686
@@ -386,7 +390,7 @@ Solved: 95, Used help: 51
 ✅ 257
 ❌ 777
 ✓� 206
-✅ 1
+✗� 1
 ✅ 57
 ✅ 159
 ✅ 48
@@ -515,7 +519,7 @@ Solved: 95, Used help: 51
 ✅ 55
 ✅ 543
 
-–––––––––––––––––––––––––––––––––––––​�––
+––––––––––––––‗�––––––––––––––––––––––​�––
 Solved: 85, Used help: 62
 ––––––––––––‮�–––––––––––––––––––––––––––
 
@@ -621,7 +625,7 @@ Solved: 85, Used help: 62
 ❌ 939
 ❌ 161
 ❌ 322
-✅ 771
+✗� 771
 ✅ 3801
 ❌ 124
 ✅ 852
