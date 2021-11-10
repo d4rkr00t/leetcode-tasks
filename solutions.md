@@ -1,4 +1,4 @@
-✅❌ https://leetcode.com/problems/guess-the-word/
+❌ https://leetcode.com/problems/guess-the-word/
 ❌ 939 <- TODO: breakdown
 ✅ 124
 ✅ 49
