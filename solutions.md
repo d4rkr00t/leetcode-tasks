@@ -1,4 +1,5 @@
-✅❌ https://leetcode.com/problems/employee-importance/
+✅❌ https://leetcode.com/problems/max-value-of-equation/
+✅ https://leetcode.com/problems/employee-importance/
 ❌ https://leetcode.com/problems/maximum-number-of-visible-points/ <- TODO: breakdown
 ❌ https://leetcode.com/problems/minimum-window-subsequence/
 ✅ https://leetcode.com/problems/confusing-number-ii/
