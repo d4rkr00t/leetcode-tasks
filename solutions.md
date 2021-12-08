@@ -1,4 +1,5 @@
-❌✅ https://leetcode.com/problems/the-most-similar-path-in-a-graph/
+✅❌ https://leetcode.com/problems/longest-string-chain/
+❌ https://leetcode.com/problems/the-most-similar-path-in-a-graph/ <- TODO: breakdown
 ❌ https://leetcode.com/problems/range-module/ <- TODO: breakdown
 ❌ https://leetcode.com/problems/max-value-of-equation/ <- TODO: breakdown
 ✅ https://leetcode.com/problems/employee-importance/
