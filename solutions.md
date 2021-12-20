@@ -1,4 +1,5 @@
-✅❌ https://leetcode.com/problems/number-of-matching-subsequences/
+✅❌ https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
+❌ https://leetcode.com/problems/number-of-matching-subsequences/
 ❌ https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 ✅ https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 ✅ https://leetcode.com/problems/longest-string-chain/
