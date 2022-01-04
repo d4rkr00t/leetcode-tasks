@@ -1,4 +1,5 @@
-✅❌ https://leetcode.com/problems/text-justification/
+✅❌ https://leetcode.com/problems/new-21-game/
+✅ https://leetcode.com/problems/text-justification/
 ✅ https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
 ❌ https://leetcode.com/problems/number-of-matching-subsequences/
 ❌ https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
@@ -11,12 +12,12 @@
 ❌ https://leetcode.com/problems/maximum-number-of-visible-points/ <- TODO: breakdown
 ❌ https://leetcode.com/problems/minimum-window-subsequence/
 ✅ https://leetcode.com/problems/confusing-number-ii/
-❌ https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/ <- TODO: breakdown
+❌ https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
 ✅ https://leetcode.com/problems/validate-stack-sequences/
 ✅ https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 ❌ https://leetcode.com/problems/string-transforms-into-another-string/
 ❌ https://leetcode.com/problems/guess-the-word/
-❌ 939 <- TODO: breakdown
+❌ 939
 ✅ 124
 ✅ 49
 ✅ https://leetcode.com/problems/random-pick-with-weight/
