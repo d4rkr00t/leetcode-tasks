@@ -1,4 +1,6 @@
-✅❌ https://leetcode.com/problems/new-21-game/
+✅❌ https://leetcode.com/problems/stone-game-iii/
+✅ https://leetcode.com/problems/my-calendar-i/
+❌ https://leetcode.com/problems/new-21-game/ <- TODO: breakdown
 ✅ https://leetcode.com/problems/text-justification/
 ✅ https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
 ❌ https://leetcode.com/problems/number-of-matching-subsequences/
@@ -9,7 +11,7 @@
 ❌ https://leetcode.com/problems/range-module/ <- TODO: breakdown
 ❌ https://leetcode.com/problems/max-value-of-equation/ <- TODO: breakdown
 ✅ https://leetcode.com/problems/employee-importance/
-❌ https://leetcode.com/problems/maximum-number-of-visible-points/ <- TODO: breakdown
+❌ https://leetcode.com/problems/maximum-number-of-visible-points/
 ❌ https://leetcode.com/problems/minimum-window-subsequence/
 ✅ https://leetcode.com/problems/confusing-number-ii/
 ❌ https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
