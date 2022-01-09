@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/longest-string-chain/
 # medium
 #
-# Tags:
+# Tags: Google, Facebook
 #
 # Time:  TBD
 # Space: TBD
@@ -11,7 +11,6 @@
 # TBD
 
 from typing import List
-from collections import defaultdict
 
 
 def longestStrChain(words: List[str]) -> int:

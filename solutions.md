@@ -1,48 +1,51 @@
-✅❌ https://leetcode.com/problems/stone-game-iii/
-✅ https://leetcode.com/problems/my-calendar-i/
-❌ https://leetcode.com/problems/new-21-game/ <- TODO: breakdown
-✅ https://leetcode.com/problems/text-justification/
-✅ https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
-❌ https://leetcode.com/problems/number-of-matching-subsequences/
-❌ https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
-✅ https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
-✅ https://leetcode.com/problems/longest-string-chain/
-❌ https://leetcode.com/problems/the-most-similar-path-in-a-graph/ <- TODO: breakdown
-❌ https://leetcode.com/problems/range-module/ <- TODO: breakdown
-❌ https://leetcode.com/problems/max-value-of-equation/ <- TODO: breakdown
-✅ https://leetcode.com/problems/employee-importance/
-❌ https://leetcode.com/problems/maximum-number-of-visible-points/
-❌ https://leetcode.com/problems/minimum-window-subsequence/
-✅ https://leetcode.com/problems/confusing-number-ii/
-❌ https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
-✅ https://leetcode.com/problems/validate-stack-sequences/
-✅ https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
-❌ https://leetcode.com/problems/string-transforms-into-another-string/
-❌ https://leetcode.com/problems/guess-the-word/
+✅❌ https://leetcode.com/problems/car-fleet/
+❌ 394
+❌ 1406
+❌ 222
+✅ 729
+❌ 837
+✅ 68
+✅ 1509
+❌ 792
+❌ 1477
+✅ 1293
+✅ 1048
+❌ 1548
+❌ 715
+❌ 1499
+✅ 690
+❌ 1610
+❌ 727
+✅ 1088
+❌ 1438
+✅ 946
+✅ 1423
+❌ 1153
+❌ 843
 ❌ 939
 ✅ 124
 ✅ 49
-✅ https://leetcode.com/problems/random-pick-with-weight/
+✅ 528
 ✅ 29
-✅ https://leetcode.com/problems/range-sum-of-bst/
+✅ 938
 ❌ 809
 ❌ 426
-✅ https://leetcode.com/problems/evaluate-reverse-polish-notation/
+✅ 150
 ✅ 17
 ✅ 399
 ✅ 167
-❌ https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+❌ 1123
 ❌ 329
 ❌ 162
 ✅ 731
 ✅ 66
-✅ https://leetcode.com/problems/construct-the-rectangle/
+✅ 492
 ✅ 295
 ✅ 48
-✅ https://leetcode.com/problems/time-needed-to-inform-all-employees/
+✅ 1376
 ✅ 2831
 ✅ 12
-✅ https://leetcode.com/problems/count-vowels-permutation/
+✅ 1220
 ✅ 8
 ✅ 2
 ❌ 282
@@ -55,7 +58,7 @@
 ✅ 468
 ❌ 560
 ❌ 222
-✮� 19
+✅ 19
 ✅ 50
 ✅ 5
 ❌ 410
@@ -82,7 +85,7 @@
 
 ––––––––––––––––––––––––––––––––––––––––
 Solved: 119, Used help: 30
-––––––––––––––‗�–––––––––––––––––––––​�–––
+––––––––––––––––––––––––––––––––––––––––
 
 ✅ 350
 ❌ 686
@@ -116,7 +119,7 @@ Solved: 119, Used help: 30
 ✅ 3801
 ✅ 22
 ✅ 125
-❳� 10
+❌ 10
 ✅ 347
 ✅ 295
 ✅ 359
@@ -240,7 +243,7 @@ Solved: 108, Used help: 41
 
 ❌ 76
 ✅ 973
-✓� 681
+✅ 681
 ❌ 25
 ❌ 296
 ✅ 299
@@ -390,7 +393,7 @@ Solved: 108, Used help: 41
 
 ––––––––––––––––––––––––––––––––––––––––
 Solved: 95, Used help: 51
-–––––––––––––––––––––––––––––––″�––––––––
+––––––––––––––––––––––––––––––––––––––––
 
 ❌ 857
 ✅ 987
@@ -409,8 +412,8 @@ Solved: 95, Used help: 51
 ✅ 222
 ✅ 257
 ❌ 777
-✓� 206
-✗� 1
+✅ 206
+❌ 1
 ✅ 57
 ✅ 159
 ✅ 48
@@ -539,9 +542,9 @@ Solved: 95, Used help: 51
 ✅ 55
 ✅ 543
 
-––––––––––––––‗�––––––––––––––––––––––​�––
+––––––––––––––––––––––––––––––––––––––––––––––––––––
 Solved: 85, Used help: 62
-––––––––––––‮�–––––––––––––––––––––––––––
+––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ❌ 295
 ✅ 347
@@ -590,7 +593,7 @@ Solved: 85, Used help: 62
 ✅ 33
 ❌ 350
 ✅ 78
-❚� 29
+✅ 29
 ✅ 22
 ✅ 283
 ✅ 47
@@ -645,7 +648,7 @@ Solved: 85, Used help: 62
 ❌ 939
 ❌ 161
 ❌ 322
-✗� 771
+❌ 771
 ✅ 3801
 ❌ 124
 ✅ 852

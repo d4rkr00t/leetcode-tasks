@@ -10,8 +10,6 @@
 # Solution:
 # TBD
 
-# from sortedcontainers import SortedDict
-
 
 class RangeModule:
     def __init__(self):
