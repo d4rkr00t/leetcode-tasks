@@ -1,4 +1,5 @@
-✅❌ https://leetcode.com/problems/car-fleet-ii/
+✅❌ https://leetcode.com/problems/encode-string-with-shortest-length/
+❌ 1776
 ✅ 543
 ✅ 399
 ❌ 853

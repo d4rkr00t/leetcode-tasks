@@ -15,14 +15,8 @@ from typing import List
 
 def carFleet(target: int, position: List[int], speed: List[int]) -> int:
     res = len(position)
-    pos = [[0, 0]] * res
-    for i in range(res):
-        pos[i] = [position[i], speed[i]]
-
-    pos = sorted(pos, key=lambda k: k[0], reverse=True)
-
-    finishing = [(target - v[0]) / v[1] for v in pos]
-
+    finishing = [(target - p) / s for p, s in sorted(
+        zip(position, speed), key=lambda k: k[0], reverse=True)]
     mxSpeed = finishing[0]
 
     for i in range(1, len(finishing)):
