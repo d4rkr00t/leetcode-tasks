@@ -1,4 +1,7 @@
 {
   "562": ["Array", "Dynamic Programming", "Matrix"],
-  "425": ["Array", "String", "Backtracking", "Trie"]
+  "425": ["Array", "String", "Backtracking", "Trie"],
+  "247": ["Array", "String", "Recursion"],
+  "366": ["Tree", "Depth-First Search", "Binary Tree"],
+  "212": ["Array", "String", "Backtracking", "Trie", "Matrix"]
 }
