@@ -1,5 +1,6 @@
 {
   "2": ["Linked List", "Math", "Recursion"],
+  "4": ["Array", "Binary Search", "Divide and Conquer"],
   "5": ["String", "Dynamic Programming"],
   "7": ["Math"],
   "8": ["String"],
@@ -22,5 +23,6 @@
   "366": ["Tree", "Depth-First Search", "Binary Tree"],
   "418": ["String", "Dynamic Programming", "Simulation"],
   "425": ["Array", "String", "Backtracking", "Trie"],
+  "465": ["Array", "Backtracking"],
   "562": ["Array", "Dynamic Programming", "Matrix"]
 }
