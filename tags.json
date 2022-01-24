@@ -12,11 +12,16 @@
   "21": ["Linked List", "Recursion"],
   "22": ["String", "Dynamic Programming", "Backtracking"],
   "29": ["Math", "Bit Manipulation"],
+  "34": ["Array", "Binary Search"],
   "48": ["Array", "Math", "Matrix"],
   "49": ["Hash Table", "String", "Sorting"],
   "50": ["Math", "Recursion"],
+  "56": ["Array", "Sorting"],
   "66": ["Array", "Math"],
   "67": ["Math", "String", "Bit Manipulation", "Simulation"],
+  "124": ["Dynamic Programming", "Tree", "Depth-First Search", "Binary Tree"],
+  "125": ["Two Pointers", "String"],
+  "139": ["Hash Table", "String", "Dynamic Programming", "Trie", "Memoization"],
   "212": ["Array", "String", "Backtracking", "Trie", "Matrix"],
   "247": ["Array", "String", "Recursion"],
   "351": ["Dynamic Programming", "Backtracking"],
@@ -24,5 +29,6 @@
   "418": ["String", "Dynamic Programming", "Simulation"],
   "425": ["Array", "String", "Backtracking", "Trie"],
   "465": ["Array", "Backtracking"],
-  "562": ["Array", "Dynamic Programming", "Matrix"]
+  "562": ["Array", "Dynamic Programming", "Matrix"],
+  "1526": ["Array", "Dynamic Programming", "Stack", "Greedy", "Monotonic Stack"]
 }

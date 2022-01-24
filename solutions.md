@@ -1,4 +1,6 @@
-✅❌ https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
+✅❌ https://leetcode.com/problems/number-of-good-ways-to-split-a-string/
+✅❌ 34
+✅ 1526
 ✅ 465
 ❌ 4
 ❌ 418
