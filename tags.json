@@ -22,13 +22,36 @@
   "124": ["Dynamic Programming", "Tree", "Depth-First Search", "Binary Tree"],
   "125": ["Two Pointers", "String"],
   "139": ["Hash Table", "String", "Dynamic Programming", "Trie", "Memoization"],
+  "143": ["Linked List", "Two Pointers", "Stack", "Recursion"],
+  "146": ["Hash Table", "Linked List", "Design", "Doubly-Linked List"],
+  "162": ["Array", "Binary Search"],
+  "167": ["Array", "Binary Search", "Two Pointers"],
+  "207": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph",
+    "Topological Sort"
+  ],
+  "211": ["String", "Depth-First Search", "Design", "Trie"],
   "212": ["Array", "String", "Backtracking", "Trie", "Matrix"],
+  "222": ["Binary Search", "Tree", "Depth-First Search", "Binary Tree"],
+  "238": ["Array", "Prefix Sum"],
   "247": ["Array", "String", "Recursion"],
+  "253": [
+    "Array",
+    "Two Pointers",
+    "Greedy",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "268": ["Array", "Hash Table", "Math", "Bit Manipulation", "Sorting"],
+  "282": ["Math", "String", "Backtracking"],
   "351": ["Dynamic Programming", "Backtracking"],
   "366": ["Tree", "Depth-First Search", "Binary Tree"],
   "418": ["String", "Dynamic Programming", "Simulation"],
   "425": ["Array", "String", "Backtracking", "Trie"],
   "465": ["Array", "Backtracking"],
   "562": ["Array", "Dynamic Programming", "Matrix"],
+  "1525": ["String", "Dynamic Programming"],
   "1526": ["Array", "Dynamic Programming", "Stack", "Greedy", "Monotonic Stack"]
 }
