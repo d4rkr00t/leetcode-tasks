@@ -37,6 +37,7 @@
   "212": ["Array", "String", "Backtracking", "Trie", "Matrix"],
   "222": ["Binary Search", "Tree", "Depth-First Search", "Binary Tree"],
   "238": ["Array", "Prefix Sum"],
+  "242": ["Hash Table", "String", "Sorting"],
   "247": ["Array", "String", "Recursion"],
   "253": [
     "Array",
@@ -54,6 +55,25 @@
   "465": ["Array", "Backtracking"],
   "562": ["Array", "Dynamic Programming", "Matrix"],
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
+  "947": ["Depth-First Search", "Union Find", "Graph"],
+  "951": ["Tree", "Depth-First Search", "Binary Tree"],
+  "987": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "1240": ["Dynamic Programming", "Backtracking"],
+  "1269": ["Array", "Hash Table", "Greedy", "Sorting"],
+  "1406": ["Array", "Math", "Dynamic Programming", "Game Theory"],
   "1525": ["String", "Dynamic Programming"],
-  "1526": ["Array", "Dynamic Programming", "Stack", "Greedy", "Monotonic Stack"]
+  "1526": [
+    "Array",
+    "Dynamic Programming",
+    "Stack",
+    "Greedy",
+    "Monotonic Stack"
+  ],
+  "1776": ["Array", "Math", "Stack", "Heap (Priority Queue)", "Monotonic Stack"]
 }

@@ -1,4 +1,6 @@
-✅❌ https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
+✅ 242
+✅❌ https://leetcode.com/problems/maximal-rectangle/
+✅ 1269
 ✅ 57
 ✅ 652
 ✅ 1525
