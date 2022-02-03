@@ -1,3 +1,5 @@
+https://leetcode.com/problems/maximal-rectangle/
+https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 https://leetcode.com/problems/range-module/
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
 https://leetcode.com/problems/optimal-account-balancing/
