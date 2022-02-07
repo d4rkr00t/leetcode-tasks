@@ -1,4 +1,9 @@
-✅❌ https://leetcode.com/problems/number-of-closed-islands/
+✅❌ https://leetcode.com/problems/race-car/
+✅ 152
+✅ 121
+✅ 53
+❌ 852
+✅ 1254
 ❌ 85
 ✅ 242
 ✅ 1269
