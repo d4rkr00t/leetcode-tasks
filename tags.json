@@ -61,6 +61,7 @@
     "Merge Sort",
     "Ordered Set"
   ],
+  "322": ["Dynamic Programming", "Array", "Breadth-First Search"],
   "351": ["Dynamic Programming", "Backtracking"],
   "366": ["Tree", "Depth-First Search", "Binary Tree"],
   "418": ["String", "Dynamic Programming", "Simulation"],
@@ -68,7 +69,14 @@
   "465": ["Array", "Backtracking"],
   "562": ["Array", "Dynamic Programming", "Matrix"],
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
+  "818": ["Dynamic Programming", "Breadth-First Search"],
   "852": ["Array", "Binary Search"],
+  "837": [
+    "Math",
+    "Dynamic Programming",
+    "Sliding Window",
+    "Probability and Statistics"
+  ],
   "947": ["Depth-First Search", "Union Find", "Graph"],
   "951": ["Tree", "Depth-First Search", "Binary Tree"],
   "987": [

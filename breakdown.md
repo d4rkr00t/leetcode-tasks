@@ -1,3 +1,4 @@
+https://leetcode.com/problems/race-car/
 https://leetcode.com/problems/maximal-rectangle/
 https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 https://leetcode.com/problems/range-module/
@@ -15,4 +16,3 @@ https://leetcode.com/problems/cracking-the-safe/
 https://leetcode.com/problems/car-fleet-ii/
 https://leetcode.com/problems/stone-game-iii/
 https://leetcode.com/problems/count–complete–tree–nodes
-https://leetcode.com/problems/new–21–game/

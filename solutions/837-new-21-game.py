@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/new-21-game/
 # medium
 #
-# Tags: Google
+# Tags:
 #
 # Time:  TBD
 # Space: TBD
@@ -28,6 +28,13 @@ def new21Game(n: int, k: int, maxPts: int) -> float:
 
     return sum(dp[k:])
 
+
+# n = 11
+# k = 6
+# maxPoints = 10
+# dp = [1.0, 0.1, 0.11, 0.121, 0.1331, 0.1664, 0.201, 0.201, 0.201, 0.201, 0.201, 0.101]
+# wSum = 0.913
+# i = 11
 
 print(new21Game(n=11, k=6, maxPts=10), 0.86631)
 # print(new21Game(n=10, k=6, maxPts=10), 0.80525)
