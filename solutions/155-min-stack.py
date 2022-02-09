@@ -16,19 +16,22 @@ class MinStack:
         """
         initialize your data structure here.
         """
-        pass
+        self.stack = []
+        self.min = None
 
     def push(self, x: int) -> None:
-        pass
+        self.stack.push((x, self.min))
+        self.min = min(x, self.min)
 
     def pop(self) -> None:
-        pass
+        _, prev_min = self.stack.pop()
+        self.min = prev_min
 
     def top(self) -> int:
-        pass
+        self.stack[-1][0]
 
     def getMin(self) -> int:
-        pass
+        return self.min
 
 
 # Your MinStack object will be instantiated and called as such:

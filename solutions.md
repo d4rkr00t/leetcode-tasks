@@ -1,4 +1,8 @@
-✅❌ https://leetcode.com/problems/asteroid-collision/
+✅❌ https://leetcode.com/problems/bricks-falling-when-hit/
+✅ 380
+✅ 297
+✅ 155
+✅ 735
 ✅ 322
 ❌ 818
 ✅ 152
