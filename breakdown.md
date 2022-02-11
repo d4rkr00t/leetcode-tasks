@@ -1,3 +1,4 @@
+https://leetcode.com/problems/bricks-falling-when-hit/
 https://leetcode.com/problems/logger-rate-limiter/solution/
 https://leetcode.com/problems/new-21-game/
 https://leetcode.com/problems/race-car/

@@ -1,4 +1,5 @@
-✅❌ https://leetcode.com/problems/bricks-falling-when-hit/
+✅❌ 642
+❌ 803
 ✅ 380
 ✅ 297
 ✅ 155

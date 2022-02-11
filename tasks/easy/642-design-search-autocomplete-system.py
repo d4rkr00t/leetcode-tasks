@@ -14,7 +14,6 @@ from typing import List
 
 
 class AutocompleteSystem:
-
     def __init__(self, sentences: List[str], times: List[int]):
         pass
 

@@ -80,6 +80,7 @@
   "562": ["Array", "Dynamic Programming", "Matrix"],
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
   "735": ["Array", "Stack"],
+  "803": ["Array", "Union Find", "Matrix"],
   "818": ["Dynamic Programming", "Breadth-First Search"],
   "852": ["Array", "Binary Search"],
   "837": [
