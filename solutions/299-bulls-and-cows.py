@@ -23,9 +23,13 @@ def getHint(secret: str, guess: str) -> str:
         else:
             cc[sc] += 1
 
-    for gc in guess:
+    for sc, gc in zip(secret, guess):
+        if sc == gc:
+            continue
+
         if cc[gc] > 0:
             B += 1
+
         cc[gc] -= 1
 
     return str(A) + "A" + str(B) + "B"

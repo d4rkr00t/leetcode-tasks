@@ -1,3 +1,5 @@
+https://leetcode.com/problems/swap-adjacent-in-lr-string/
+https://leetcode.com/problems/range-sum-query-2d-mutable/solution/
 https://leetcode.com/problems/bricks-falling-when-hit/
 https://leetcode.com/problems/logger-rate-limiter/solution/
 https://leetcode.com/problems/new-21-game/

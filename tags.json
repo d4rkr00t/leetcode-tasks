@@ -63,6 +63,8 @@
     "Design",
     "Binary Tree"
   ],
+  "299": ["Hash Table", "String", "Counting"],
+  "308": ["Array", "Design", "Binary Indexed Tree", "Segment Tree", "Matrix"],
   "315": [
     "Array",
     "Binary Search",
@@ -83,16 +85,21 @@
   "562": ["Array", "Dynamic Programming", "Matrix"],
   "642": ["String", "Design", "Trie", "Data Stream"],
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
+  "731": ["Design", "Segment Tree", "Ordered Set"],
   "735": ["Array", "Stack"],
+  "771": ["Hash Table", "String"],
+  "777": ["Two Pointers", "String"],
   "803": ["Array", "Union Find", "Matrix"],
   "818": ["Dynamic Programming", "Breadth-First Search"],
-  "852": ["Array", "Binary Search"],
   "837": [
     "Math",
     "Dynamic Programming",
     "Sliding Window",
     "Probability and Statistics"
   ],
+  "843": ["Math", "Array", "String", "Game Theory"],
+  "852": ["Array", "Binary Search"],
+  "939": ["Array", "Hash Table", "Math", "Geometry", "Sorting"],
   "947": ["Depth-First Search", "Union Find", "Graph"],
   "951": ["Tree", "Depth-First Search", "Binary Tree"],
   "987": [
