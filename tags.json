@@ -25,6 +25,7 @@
   "121": ["Array", "Dynamic Programming"],
   "124": ["Dynamic Programming", "Tree", "Depth-First Search", "Binary Tree"],
   "125": ["Two Pointers", "String"],
+  "135": ["Array", "Greedy"],
   "139": ["Hash Table", "String", "Dynamic Programming", "Trie", "Memoization"],
   "143": ["Linked List", "Two Pointers", "Stack", "Recursion"],
   "146": ["Hash Table", "Linked List", "Design", "Doubly-Linked List"],
@@ -32,6 +33,7 @@
   "155": ["Stack", "Design"],
   "162": ["Array", "Binary Search"],
   "167": ["Array", "Binary Search", "Two Pointers"],
+  "205": ["Hash Table", "String"],
   "207": [
     "Depth-First Search",
     "Breadth-First Search",
@@ -43,6 +45,7 @@
   "222": ["Binary Search", "Tree", "Depth-First Search", "Binary Tree"],
   "238": ["Array", "Prefix Sum"],
   "242": ["Hash Table", "String", "Sorting"],
+  "246": ["Hash Table", "Two Pointers", "String"],
   "247": ["Array", "String", "Recursion"],
   "253": [
     "Array",
@@ -78,6 +81,7 @@
   "425": ["Array", "String", "Backtracking", "Trie"],
   "465": ["Array", "Backtracking"],
   "562": ["Array", "Dynamic Programming", "Matrix"],
+  "642": ["String", "Design", "Trie", "Data Stream"],
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
   "735": ["Array", "Stack"],
   "803": ["Array", "Union Find", "Matrix"],
