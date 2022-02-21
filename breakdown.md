@@ -19,4 +19,3 @@ https://leetcode.com/problems/robot-room-cleaner/
 https://leetcode.com/problems/encode-string-with-shortest-length/
 https://leetcode.com/problems/cracking-the-safe/
 https://leetcode.com/problems/car-fleet-ii/
-https://leetcode.com/problems/stone-game-iii/
