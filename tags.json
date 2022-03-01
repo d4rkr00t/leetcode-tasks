@@ -150,5 +150,6 @@
     "Greedy",
     "Monotonic Stack"
   ],
+  "1548": ["Dynamic Programming", "Graph"],
   "1776": ["Array", "Math", "Stack", "Heap (Priority Queue)", "Monotonic Stack"]
 }
