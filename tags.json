@@ -89,6 +89,7 @@
     "Ordered Set"
   ],
   "322": ["Dynamic Programming", "Array", "Breadth-First Search"],
+  "325": ["Array", "Hash Table"],
   "348": ["Array", "Hash Table", "Design", "Matrix"],
   "350": ["Array", "Hash Table", "Two Pointers", "Binary Search", " Sorting"],
   "351": ["Dynamic Programming", "Backtracking"],
@@ -137,6 +138,7 @@
     "Breadth-First Search",
     "Binary Tree"
   ],
+  "1153": ["Hash Table", "String"],
   "1223": [
     "Hash Table",
     "Tree",
