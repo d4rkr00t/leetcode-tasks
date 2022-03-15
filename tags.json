@@ -69,6 +69,7 @@
     "Binary Tree"
   ],
   "268": ["Array", "Hash Table", "Math", "Bit Manipulation", "Sorting"],
+  "273": ["Math", "String", "Recursion"],
   "282": ["Math", "String", "Backtracking"],
   "297": [
     "String",
@@ -117,6 +118,7 @@
   "735": ["Array", "Stack"],
   "771": ["Hash Table", "String"],
   "777": ["Two Pointers", "String"],
+  "792": ["Hash Table", "String", "Trie", "Sorting"],
   "803": ["Array", "Union Find", "Matrix"],
   "818": ["Dynamic Programming", "Breadth-First Search"],
   "837": [
