@@ -1,6 +1,6 @@
 # Missing Ranges
 # https://leetcode.com/problems/missing-ranges/
-# medium
+# easy
 #
 # Tags: Amazon, Facebook, Google
 #

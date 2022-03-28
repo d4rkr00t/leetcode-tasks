@@ -1,5 +1,6 @@
 {
   "2": ["Linked List", "Math", "Recursion"],
+  "3": ["Hash Table", "String", "Sliding Window"],
   "4": ["Array", "Binary Search", "Divide and Conquer"],
   "5": ["String", "Dynamic Programming"],
   "7": ["Math"],
@@ -41,6 +42,7 @@
   "152": ["Array", "Dynamic Programming"],
   "155": ["Stack", "Design"],
   "162": ["Array", "Binary Search"],
+  "163": ["Array"],
   "167": ["Array", "Binary Search", "Two Pointers"],
   "205": ["Hash Table", "String"],
   "207": [
@@ -118,6 +120,7 @@
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
   "680": ["Two Pointers", "String", "Greedy"],
   "681": ["String", "Enumeration"],
+  "686": ["String", "String Matching"],
   "721": [
     "Array",
     "String",
