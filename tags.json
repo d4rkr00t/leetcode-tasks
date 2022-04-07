@@ -88,6 +88,7 @@
   ],
   "296": ["Array", "Math", "Sorting", "Matrix"],
   "299": ["Hash Table", "String", "Counting"],
+  "301": ["Backtracking", "String", "Breadth-First Search"],
   "308": ["Array", "Design", "Binary Indexed Tree", "Segment Tree", "Matrix"],
   "315": [
     "Array",
@@ -111,6 +112,7 @@
     "Quickselect"
   ],
   "348": ["Array", "Hash Table", "Design", "Matrix"],
+  "349": ["Array", "Hash Table", "Binary Search", "Sorting"],
   "350": ["Array", "Hash Table", "Two Pointers", "Binary Search", " Sorting"],
   "351": ["Dynamic Programming", "Backtracking"],
   "359": ["Hash Table", "Design"],
