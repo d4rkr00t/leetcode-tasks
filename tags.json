@@ -7,6 +7,7 @@
   "8": ["String"],
   "11": ["Array", "Two Pointers", "Greedy"],
   "12": ["Hash Table", "Math", "String"],
+  "15": ["Array", "Two Pointers", "Sorting"],
   "16": ["Array", "Two Pointers", "Sorting"],
   "17": ["Hash Table", "String", "Backtracking"],
   "19": ["Linked List", "Two Pointers"],
@@ -45,6 +46,7 @@
   "146": ["Hash Table", "Linked List", "Design", "Doubly-Linked List"],
   "152": ["Array", "Dynamic Programming"],
   "155": ["Stack", "Design"],
+  "161": ["Two Pointers", "String"],
   "162": ["Array", "Binary Search"],
   "163": ["Array"],
   "167": ["Array", "Binary Search", "Two Pointers"],
@@ -101,6 +103,7 @@
     "Merge Sort",
     "Ordered Set"
   ],
+  "317": ["Array", "Breadth-First Search", "Matrix"],
   "322": ["Dynamic Programming", "Array", "Breadth-First Search"],
   "325": ["Array", "Hash Table"],
   "347": [
@@ -155,6 +158,7 @@
   ],
   "843": ["Math", "Array", "String", "Game Theory"],
   "852": ["Array", "Binary Search"],
+  "857": ["Array", "Greedy", "Sorting", "Heap (Priority Queue)"],
   "939": ["Array", "Hash Table", "Math", "Geometry", "Sorting"],
   "947": ["Depth-First Search", "Union Find", "Graph"],
   "957": ["Array", "Hash Table", "Math", "Bit Manipulation"],

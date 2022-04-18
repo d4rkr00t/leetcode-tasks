@@ -1,3 +1,4 @@
+https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
 https://leetcode.com/problems/multiply-strings/
 https://leetcode.com/problems/range-module/
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/solution/
