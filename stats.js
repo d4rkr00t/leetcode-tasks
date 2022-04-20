@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const tagsData = require("./tags.json");
 const solutionsFilePath = path.join(__dirname, "solutions.md");
 const solutionsRawData = fs.readFileSync(solutionsFilePath, "utf-8");
 const faildTaskPrefix = "❌ ";
@@ -36,6 +37,8 @@ const groups = {
   hard: [],
 };
 
+const tags = {};
+
 for (let [tid, fails] of Object.entries(taskToNumFails)) {
   if (fails === 0) {
     groups.easy.push(tid);
@@ -44,6 +47,15 @@ for (let [tid, fails] of Object.entries(taskToNumFails)) {
   } else {
     groups.hard.push(tid);
   }
+  if (fails > 0) {
+    for (let tag of tagsData[tid] || []) {
+      tags[tag] = (tags[tag] || 0) + fails;
+    }
+  }
 }
 
 console.log(JSON.stringify(groups, null, 2));
+console.log();
+console.log("--------------");
+console.log();
+console.log(JSON.stringify(tags, null, 2));
