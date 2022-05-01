@@ -1,4 +1,5 @@
 {
+  "1": ["Array", "Hash Table"],
   "2": ["Linked List", "Math", "Recursion"],
   "3": ["Hash Table", "String", "Sliding Window"],
   "4": ["Array", "Binary Search", "Divide and Conquer"],
@@ -31,6 +32,7 @@
   ],
   "43": ["Math", "String", "Simulation"],
   "46": ["Array", "Backtracking"],
+  "47": ["Array", "Backtracking"],
   "48": ["Array", "Math", "Matrix"],
   "49": ["Hash Table", "String", "Sorting"],
   "50": ["Math", "Recursion"],
@@ -57,12 +59,14 @@
   "139": ["Hash Table", "String", "Dynamic Programming", "Trie", "Memoization"],
   "143": ["Linked List", "Two Pointers", "Stack", "Recursion"],
   "146": ["Hash Table", "Linked List", "Design", "Doubly-Linked List"],
+  "150": ["Array", "Math", "Stack"],
   "152": ["Array", "Dynamic Programming"],
   "155": ["Stack", "Design"],
   "159": ["Hash Table", "Sliding Window", "String"],
   "161": ["Two Pointers", "String"],
   "162": ["Array", "Binary Search"],
   "163": ["Array"],
+  "165": ["Two Pointers", "String"],
   "167": ["Array", "Binary Search", "Two Pointers"],
   "173": [
     "Stack",
@@ -130,6 +134,7 @@
   "299": ["Hash Table", "String", "Counting"],
   "301": ["Backtracking", "String", "Breadth-First Search"],
   "308": ["Array", "Design", "Binary Indexed Tree", "Segment Tree", "Matrix"],
+  "311": ["Array", "Hash Table", "Matrix"],
   "315": [
     "Array",
     "Binary Search",
