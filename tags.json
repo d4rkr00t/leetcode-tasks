@@ -62,6 +62,7 @@
   "150": ["Array", "Math", "Stack"],
   "152": ["Array", "Dynamic Programming"],
   "155": ["Stack", "Design"],
+  "158": ["String", "Simulation"],
   "159": ["Hash Table", "Sliding Window", "String"],
   "161": ["Two Pointers", "String"],
   "162": ["Array", "Binary Search"],
@@ -76,6 +77,7 @@
     "Binary Tree",
     "Iterator"
   ],
+  "199": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
   "205": ["Hash Table", "String"],
   "206": ["Linked List", "Recursion"],
   "207": [
@@ -167,6 +169,7 @@
   "394": ["String", "Stack", "Recursion"],
   "418": ["String", "Dynamic Programming", "Simulation"],
   "425": ["Array", "String", "Backtracking", "Trie"],
+  "438": ["Hash Table", "String", "Sliding Window"],
   "465": ["Array", "Backtracking"],
   "562": ["Array", "Dynamic Programming", "Matrix"],
   "642": ["String", "Design", "Trie", "Data Stream"],
@@ -182,6 +185,7 @@
     "Breadth-First Search",
     "Union Find"
   ],
+  "727": ["String", "Dynamic Programming", "Sliding Window"],
   "729": ["Design", "Segment Tree", "Ordered Set"],
   "731": ["Design", "Segment Tree", "Ordered Set"],
   "733": ["Array", "Depth-First Search", "Breadth-First Search", "Matrix"],
@@ -217,6 +221,7 @@
     "Breadth-First Search",
     "Binary Tree"
   ],
+  "989": ["Array", "Two Pointers"],
   "1048": [
     "Array",
     "Hash Table",
