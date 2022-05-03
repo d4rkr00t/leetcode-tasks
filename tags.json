@@ -47,6 +47,7 @@
   "78": ["Array", "Backtracking", "Bit Manipulation"],
   "85": ["Array", "Dynamic Programming", "Stack", "Matrix", "Monotonic Stack"],
   "88": ["Array", "Two Pointers", "Sorting"],
+  "91": ["String", "Dynamic Programming"],
   "103": ["Tree", "Breadth-First Search", "Binary Tree"],
   "114": ["Linked List", "Stack", "Tree", "Depth-First Search", "Binary Tree"],
   "121": ["Array", "Dynamic Programming"],
@@ -78,6 +79,13 @@
     "Iterator"
   ],
   "199": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
+  "200": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find",
+    "Matrix"
+  ],
   "205": ["Hash Table", "String"],
   "206": ["Linked List", "Recursion"],
   "207": [
@@ -166,6 +174,7 @@
   "359": ["Hash Table", "Design"],
   "366": ["Tree", "Depth-First Search", "Binary Tree"],
   "380": ["Hash Table", "Design", "Array", "Math", "Randomized"],
+  "387": ["Hash Table", "Queue", "Counting", "String"],
   "394": ["String", "Stack", "Recursion"],
   "418": ["String", "Dynamic Programming", "Simulation"],
   "425": ["Array", "String", "Backtracking", "Trie"],
@@ -214,6 +223,15 @@
   "957": ["Array", "Hash Table", "Math", "Bit Manipulation"],
   "951": ["Tree", "Depth-First Search", "Binary Tree"],
   "953": ["Array", "Hash Table", "String"],
+  "973": [
+    "Array",
+    "Math",
+    "Divide and Conquer",
+    "Geometry",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Quickselect"
+  ],
   "987": [
     "Hash Table",
     "Tree",
@@ -257,6 +275,13 @@
     "Heap (Priority Queue)",
     "Ordered Set",
     "Monotonic Queue"
+  ],
+  "1477": [
+    "Array",
+    "Hash Table",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sliding Window"
   ],
   "1525": ["String", "Dynamic Programming"],
   "1526": [
