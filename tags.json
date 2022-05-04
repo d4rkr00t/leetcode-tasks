@@ -48,6 +48,7 @@
   "85": ["Array", "Dynamic Programming", "Stack", "Matrix", "Monotonic Stack"],
   "88": ["Array", "Two Pointers", "Sorting"],
   "91": ["String", "Dynamic Programming"],
+  "101": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
   "103": ["Tree", "Breadth-First Search", "Binary Tree"],
   "114": ["Linked List", "Stack", "Tree", "Depth-First Search", "Binary Tree"],
   "121": ["Array", "Dynamic Programming"],
@@ -180,6 +181,7 @@
   "425": ["Array", "String", "Backtracking", "Trie"],
   "438": ["Hash Table", "String", "Sliding Window"],
   "465": ["Array", "Backtracking"],
+  "528": ["Math", "Binary Search", "Prefix Sum"],
   "562": ["Array", "Dynamic Programming", "Matrix"],
   "642": ["String", "Design", "Trie", "Data Stream"],
   "652": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
@@ -212,6 +214,7 @@
     "Probability and Statistics"
   ],
   "843": ["Math", "Array", "String", "Game Theory"],
+  "844": ["Two Pointers", "String", "Stack", "Simulation"],
   "849": ["Array"],
   "852": ["Array", "Binary Search"],
   "857": ["Array", "Greedy", "Sorting", "Heap (Priority Queue)"],
@@ -247,6 +250,7 @@
     "String",
     "Dynamic Programming"
   ],
+  "1088": ["Math", "Backtracking"],
   "1153": ["Hash Table", "String"],
   "1220": ["Dynamic Programming"],
   "1223": [
@@ -283,6 +287,7 @@
     "Dynamic Programming",
     "Sliding Window"
   ],
+  "1509": ["Array", "Greedy", "Sorting"],
   "1525": ["String", "Dynamic Programming"],
   "1526": [
     "Array",
