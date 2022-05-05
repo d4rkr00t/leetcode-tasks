@@ -16,6 +16,12 @@
   "20": ["String", "Stack"],
   "21": ["Linked List", "Recursion"],
   "22": ["String", "Dynamic Programming", "Backtracking"],
+  "23": [
+    "Linked List",
+    "Divide and Conquer",
+    "Heap (Priority Queue)",
+    "Merge Sort"
+  ],
   "25": ["Linked List", "Recursion"],
   "26": ["Array", "Two Pointers"],
   "29": ["Math", "Bit Manipulation"],
@@ -188,6 +194,7 @@
   "680": ["Two Pointers", "String", "Greedy"],
   "681": ["String", "Enumeration"],
   "686": ["String", "String Matching"],
+  "690": ["Hash Table", "Depth-First Search", "Breadth-First Search"],
   "715": ["Design", "Segment Tree", "Ordered Set"],
   "721": [
     "Array",
@@ -272,6 +279,7 @@
   "1293": ["Array", "Breadth-First Search", "Matrix"],
   "1376": ["Tree", "Depth-First Search", "Breadth-First Search"],
   "1406": ["Array", "Math", "Dynamic Programming", "Game Theory"],
+  "1423": ["Array", "Prefix Sum", "Sliding Window"],
   "1438": [
     "Array",
     "Queue",
