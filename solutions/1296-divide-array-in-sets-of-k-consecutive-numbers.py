@@ -10,11 +10,28 @@
 # Solution:
 # TBD
 
+import collections
 from typing import List
 
 
 def isPossibleDivide(nums: List[int], k: int) -> bool:
-    pass
+    if len(nums) % k == 1:
+        return False
+
+    counter = collections.Counter(nums)
+    nums.sort()
+    for n in nums:
+        if counter[n] == 0:
+            continue
+
+        counter[n] -= 1
+        for i in range(1, k):
+            if counter[n + i] == 0:
+                return False
+
+            counter[n + i] -= 1
+
+    return True
 
 
 print(isPossibleDivide(nums=[1, 2, 3, 3, 4, 4, 5, 6], k=4), True)

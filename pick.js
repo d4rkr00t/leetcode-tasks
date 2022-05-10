@@ -51,8 +51,10 @@ function pickCategory() {
   const rnd = Math.floor(Math.random() * (100 - 2)) + 1;
   if (rnd <= 20) {
     return "easy";
-  } else if (rnd <= 60) {
+  } else if (rnd <= 40) {
     return "medium";
+  } else if (rnd <= 60) {
+    return "new";
   } else {
     return "hard";
   }
