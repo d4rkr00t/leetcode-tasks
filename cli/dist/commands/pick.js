@@ -3,7 +3,8 @@
 var path = require('path');
 var fs = require('fs');
 var child_process = require('child_process');
-var getTasks = require('./get-tasks-3b538152.js');
+var consts = require('./consts-dcdb998c.js');
+var getTasks = require('./get-tasks-3cb42620.js');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -16,8 +17,8 @@ var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
  * @usage {cliName} pick
  */
 async function main() {
-  const tasks = getTasks.getGroupedTasksList(path__default["default"].join(process.cwd(), getTasks.TASKS_DIR_NAME));
-  const solutionsDirPath = path__default["default"].join(process.cwd(), getTasks.SOLUTIONS_DIR_NAME);
+  const tasks = getTasks.getGroupedTasksList(path__default["default"].join(process.cwd(), consts.TASKS_DIR_NAME));
+  const solutionsDirPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_DIR_NAME);
   const solutions = fs__default["default"].readdirSync(solutionsDirPath);
   const solutionsCount = solutions.length;
   const totalTasksCount = Object.keys(tasks).reduce((acc, key) => {
@@ -30,7 +31,7 @@ async function main() {
     return;
   }
 
-  const solutionsPath = path__default["default"].join(process.cwd(), getTasks.SOLUTIONS_FILE_NAME);
+  const solutionsPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_FILE_NAME);
   const solutionsData = require(solutionsPath);
 
   while (true) {
@@ -45,9 +46,9 @@ async function main() {
     const [id] = item.split("-");
     solutionsData.active.tasks.unshift({
       id,
-      status: getTasks.TAKS_STATUS_NEW,
+      status: consts.TASK_STATUS_NEW,
     });
-    const fileSrc = path__default["default"].join(process.cwd(), getTasks.TASKS_DIR_NAME, category, item);
+    const fileSrc = path__default["default"].join(process.cwd(), consts.TASKS_DIR_NAME, category, item);
     const fileDest = path__default["default"].join(solutionsDirPath, item);
     fs__default["default"].copyFileSync(fileSrc, fileDest);
     fs__default["default"].writeFileSync(solutionsPath, JSON.stringify(solutionsData, null, 2));

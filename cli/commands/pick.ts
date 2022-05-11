@@ -5,7 +5,7 @@ import { execSync } from "child_process";
 import {
   SOLUTIONS_DIR_NAME,
   SOLUTIONS_FILE_NAME,
-  TAKS_STATUS_NEW,
+  TASK_STATUS_NEW,
   TASKS_DIR_NAME,
 } from "../lib/consts";
 import { getGroupedTasksList } from "../lib/get-tasks";
@@ -45,7 +45,7 @@ export default async function main() {
     const [id] = item.split("-");
     solutionsData.active.tasks.unshift({
       id,
-      status: TAKS_STATUS_NEW,
+      status: TASK_STATUS_NEW,
     });
     const fileSrc = path.join(process.cwd(), TASKS_DIR_NAME, category, item);
     const fileDest = path.join(solutionsDirPath, item);

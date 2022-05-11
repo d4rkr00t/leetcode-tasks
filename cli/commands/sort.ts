@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs";
 import {
   SOLUTIONS_FILE_NAME,
-  TAKS_STATUS_FAILED,
+  TASK_STATUS_FAILED,
   TASKS_DIR_NAME,
 } from "../lib/consts";
 import { getTasksFlat } from "../lib/get-tasks";
@@ -20,7 +20,7 @@ export default async function main() {
   for (let i = 0; i < Math.min(3, solutionsData.archived.length); i++) {
     const tasks = solutionsData.archived[i].tasks;
     for (let task of tasks) {
-      if (task.status === TAKS_STATUS_FAILED) {
+      if (task.status === TASK_STATUS_FAILED) {
         taskToNumFails[task.id] = (taskToNumFails[task.id] || 0) + 1;
       } else {
         taskToNumFails[task.id] = 0;

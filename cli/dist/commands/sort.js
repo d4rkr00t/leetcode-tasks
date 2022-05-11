@@ -2,7 +2,8 @@
 
 var path = require('path');
 var fs = require('fs');
-var getTasks = require('./get-tasks-3b538152.js');
+var consts = require('./consts-dcdb998c.js');
+var getTasks = require('./get-tasks-3cb42620.js');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -15,14 +16,14 @@ var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
  * @usage {cliName} sort
  */
 async function main() {
-  const solutionsPath = path__default["default"].join(process.cwd(), getTasks.SOLUTIONS_FILE_NAME);
+  const solutionsPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_FILE_NAME);
   const solutionsData = require(solutionsPath);
   const taskToNumFails = {};
 
   for (let i = 0; i < Math.min(3, solutionsData.archived.length); i++) {
     const tasks = solutionsData.archived[i].tasks;
     for (let task of tasks) {
-      if (task.status === getTasks.TAKS_STATUS_FAILED) {
+      if (task.status === consts.TASK_STATUS_FAILED) {
         taskToNumFails[task.id] = (taskToNumFails[task.id] || 0) + 1;
       } else {
         taskToNumFails[task.id] = 0;
@@ -47,11 +48,11 @@ async function main() {
     }
   }
 
-  const tasks = getTasks.getTasksFlat(path__default["default"].join(process.cwd(), getTasks.TASKS_DIR_NAME));
+  const tasks = getTasks.getTasksFlat(path__default["default"].join(process.cwd(), consts.TASKS_DIR_NAME));
 
   for (let group of Object.keys(groups)) {
     for (let taskId of groups[group]) {
-      const outDirPath = path__default["default"].join(process.cwd(), getTasks.TASKS_DIR_NAME, group);
+      const outDirPath = path__default["default"].join(process.cwd(), consts.TASKS_DIR_NAME, group);
       const oldPath = tasks[taskId];
       if (!oldPath) {
         continue;
