@@ -36,7 +36,7 @@ async function main() {
 
   fs__default["default"].writeFileSync(solutionsPath, JSON.stringify(solutionsData, null, 2));
 
-  console.log(`❌ Tasks: ${solutionsData.active.tasks[0].id} is failed!`);
+  console.log(`❌ Task: ${solutionsData.active.tasks[0].id} failed!`);
 }
 
 module.exports = main;

@@ -18,6 +18,7 @@ var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
  */
 async function main() {
   const tasks = getTasks.getGroupedTasksList(path__default["default"].join(process.cwd(), consts.TASKS_DIR_NAME));
+  const tasksFlat = getTasks.getTasksFlat(path__default["default"].join(process.cwd(), consts.TASKS_DIR_NAME));
   const solutionsDirPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_DIR_NAME);
   const solutions = fs__default["default"].readdirSync(solutionsDirPath);
   const solutionsCount = solutions.length;
@@ -33,6 +34,18 @@ async function main() {
 
   const solutionsPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_FILE_NAME);
   const solutionsData = require(solutionsPath);
+
+  if (
+    solutionsData.active.tasks.length &&
+    solutionsData.active.tasks[0].status === consts.TASK_STATUS_NEW
+  ) {
+    console.log(
+      `⚠️ Task: ${path__default["default"].basename(
+        tasksFlat[solutionsData.active.tasks[0].id]
+      )} already in progress!`
+    );
+    return;
+  }
 
   while (true) {
     const category = pickCategory();
@@ -62,12 +75,10 @@ async function main() {
 
 function pickCategory() {
   const rnd = Math.floor(Math.random() * (100 - 2)) + 1;
-  if (rnd <= 25) {
+  if (rnd <= 30) {
     return "easy";
-  } else if (rnd <= 50) {
+  } else if (rnd <= 60) {
     return "medium";
-  } else if (rnd <= 75) {
-    return "new";
   } else {
     return "hard";
   }

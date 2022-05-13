@@ -20,6 +20,18 @@ let config = {
 
         return command;
       }
+    }, "history": {
+      commandName: "history",
+      meta: {"title":"Show success rate of previous solves.","description":"","usage":"riprep history","examples":[],"shouldPassInputs":false,"options":{}},
+      load: () => {
+        let command = require("./commands/history");
+
+        if (typeof command !== "function") {
+          throw new Error(`Command "history" doesn't export a function...`)
+        }
+
+        return command;
+      }
     }, "pick": {
       commandName: "pick",
       meta: {"title":"Pick next task to solve.","description":"","usage":"riprep pick","examples":[],"shouldPassInputs":false,"options":{}},

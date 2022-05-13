@@ -17,12 +17,12 @@ export default async function main() {
   ).length;
 
   console.log(
-    `Solved/Failde:  ${solutionsData.active.solved}/${solutionsData.active.failed}`
+    `Solved/Failed:  ${solutionsData.active.solved}/${solutionsData.active.failed}`
   );
   console.log(`Success Rate:   ${solutionsData.active.successRate}`);
 
   console.log(
-    `Progress:       ${attemptedCount}/${totalTasksCount} ${(
+    `Progress:       ${attemptedCount}/${totalTasksCount} | ${(
       (attemptedCount / totalTasksCount) *
       100
     ).toFixed(0)}% | ${totalTasksCount - attemptedCount} tasks(s) left`

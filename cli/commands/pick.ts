@@ -8,7 +8,7 @@ import {
   TASK_STATUS_NEW,
   TASKS_DIR_NAME,
 } from "../lib/consts";
-import { getGroupedTasksList } from "../lib/get-tasks";
+import { getGroupedTasksList, getTasksFlat } from "../lib/get-tasks";
 
 /**
  * Pick next task to solve.
@@ -17,6 +17,7 @@ import { getGroupedTasksList } from "../lib/get-tasks";
  */
 export default async function main() {
   const tasks = getGroupedTasksList(path.join(process.cwd(), TASKS_DIR_NAME));
+  const tasksFlat = getTasksFlat(path.join(process.cwd(), TASKS_DIR_NAME));
   const solutionsDirPath = path.join(process.cwd(), SOLUTIONS_DIR_NAME);
   const solutions = fs.readdirSync(solutionsDirPath);
   const solutionsCount = solutions.length;
@@ -32,6 +33,18 @@ export default async function main() {
 
   const solutionsPath = path.join(process.cwd(), SOLUTIONS_FILE_NAME);
   const solutionsData = require(solutionsPath);
+
+  if (
+    solutionsData.active.tasks.length &&
+    solutionsData.active.tasks[0].status === TASK_STATUS_NEW
+  ) {
+    console.log(
+      `⚠️ Task: ${path.basename(
+        tasksFlat[solutionsData.active.tasks[0].id]
+      )} already in progress!`
+    );
+    return;
+  }
 
   while (true) {
     const category = pickCategory();
@@ -61,12 +74,10 @@ export default async function main() {
 
 function pickCategory() {
   const rnd = Math.floor(Math.random() * (100 - 2)) + 1;
-  if (rnd <= 25) {
+  if (rnd <= 30) {
     return "easy";
-  } else if (rnd <= 50) {
+  } else if (rnd <= 60) {
     return "medium";
-  } else if (rnd <= 75) {
-    return "new";
   } else {
     return "hard";
   }

@@ -33,5 +33,5 @@ export default async function main() {
 
   fs.writeFileSync(solutionsPath, JSON.stringify(solutionsData, null, 2));
 
-  console.log(`✅ Tasks: ${solutionsData.active.tasks[0].id} is solved!`);
+  console.log(`✅ Task: ${solutionsData.active.tasks[0].id} solved!`);
 }

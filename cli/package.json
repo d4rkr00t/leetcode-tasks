@@ -27,7 +27,8 @@
     ]
   },
   "dependencies": {
-    "@opaline/core": "*"
+    "@opaline/core": "*",
+    "asciichart": "^1.5.25"
   },
   "devDependencies": {
     "lint-staged": "*",

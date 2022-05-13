@@ -219,6 +219,7 @@
   "731": ["Design", "Segment Tree", "Ordered Set"],
   "733": ["Array", "Depth-First Search", "Breadth-First Search", "Matrix"],
   "735": ["Array", "Stack"],
+  "753": ["Depth-First Search", "Graph", "Eulerian Curcuit"],
   "771": ["Hash Table", "String"],
   "777": ["Two Pointers", "String"],
   "785": ["Depth-First Search", "Breadth-First Search", "Union Find", "Graph"],
