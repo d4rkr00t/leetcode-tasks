@@ -22,7 +22,7 @@ let config = {
       }
     }, "history": {
       commandName: "history",
-      meta: {"title":"Show success rate of previous solves.","description":"","usage":"riprep history","examples":[],"shouldPassInputs":false,"options":{}},
+      meta: {"title":"Show success rate of previous solves.","description":"","usage":"riprep history","examples":[],"shouldPassInputs":true,"options":{}},
       load: () => {
         let command = require("./commands/history");
 
