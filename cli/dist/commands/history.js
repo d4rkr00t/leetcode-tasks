@@ -12,7 +12,7 @@ var path__default = /*#__PURE__*/_interopDefaultLegacy(path);
  *
  * @usage {cliName} history
  * @usage {cliName} history <task_id>
- * @param {Array<number>} $inputs Any non-flag arguments are passed here
+ * @param {Array<string>} $inputs Any non-flag arguments are passed here
  */
 async function main($inputs) {
   if ($inputs.length) {

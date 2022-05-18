@@ -6,7 +6,7 @@ import { SOLUTIONS_FILE_NAME, TASK_STATUS_SOLVED } from "../lib/consts";
  *
  * @usage {cliName} history
  * @usage {cliName} history <task_id>
- * @param {Array<number>} $inputs Any non-flag arguments are passed here
+ * @param {Array<string>} $inputs Any non-flag arguments are passed here
  */
 export default async function main($inputs: number[]) {
   if ($inputs.length) {
