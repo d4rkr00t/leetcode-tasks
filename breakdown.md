@@ -24,6 +24,4 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 https://leetcode.com/problems/optimal-account-balancing/
 https://sysoev.org/blog/median-of-two-sorted-arrays/
 https://leetcode.com/problems/sentence-screen-fitting/
-https://leetcode.com/problems/find-leaves-of-binary-tree/
-https://leetcode.com/problems/max-value-of-equation/
 https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/ – https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/discuss/415423/No-magic-a-dfs-solution-with-heuristic
