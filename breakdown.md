@@ -1,3 +1,4 @@
+https://leetcode.com/problems/guess-the-word/
 https://leetcode.com/problems/android-unlock-patterns/
 https://leetcode.com/problems/stone-game-iii/
 https://leetcode.com/problems/minimum-window-subsequence/
@@ -23,5 +24,4 @@ https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
 https://leetcode.com/problems/optimal-account-balancing/
 https://sysoev.org/blog/median-of-two-sorted-arrays/
-https://leetcode.com/problems/sentence-screen-fitting/
 https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/ – https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/discuss/415423/No-magic-a-dfs-solution-with-heuristic
