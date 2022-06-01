@@ -3,8 +3,8 @@
 var path = require('path');
 var fs = require('fs');
 var child_process = require('child_process');
-var consts = require('./consts-dcdb998c.js');
-var getTasks = require('./get-tasks-3cb42620.js');
+var consts = require('./consts-aea860c4.js');
+var getTasks = require('./get-tasks-353b8748.js');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -26,6 +26,8 @@ async function main() {
     acc += tasks[key].length;
     return acc;
   }, 0);
+  const breakdownPath = path__default["default"].join(process.cwd(), consts.BREAKDOWN_FILE_NAME);
+  const breakdownData = require(breakdownPath);
 
   if (solutionsCount === totalTasksCount) {
     console.log("🎉 Everything is solved!");
@@ -47,16 +49,25 @@ async function main() {
     return;
   }
 
-  while (true) {
+  let attemptsCount = 20;
+  let selected = false;
+
+  while (attemptsCount) {
+    attemptsCount -= 1;
+
     const category = pickCategory();
     const item =
       tasks[category][Math.floor(Math.random() * tasks[category].length)];
 
+    const [id] = item.split("-");
+
     if (fs__default["default"].existsSync(path__default["default"].join(solutionsDirPath, item))) {
       continue;
     }
+    if (breakdownData[id]) {
+      continue;
+    }
 
-    const [id] = item.split("-");
     solutionsData.active.tasks.unshift({
       id,
       status: consts.TASK_STATUS_NEW,
@@ -68,8 +79,15 @@ async function main() {
 
     console.log("Next task: ", item);
     child_process.execSync(`code-insiders ${fileDest} -r`);
+    selected = true;
 
     break;
+  }
+
+  if (attemptsCount === 0 && !selected) {
+    console.log(
+      `No task was selected. Check breakdown tasks list to unblock task selection.`
+    );
   }
 }
 

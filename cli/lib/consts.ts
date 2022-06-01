@@ -1,5 +1,6 @@
 export const SOLUTIONS_DIR_NAME = "solutions";
 export const SOLUTIONS_FILE_NAME = "solutions.json";
+export const BREAKDOWN_FILE_NAME = "breakdown.json";
 
 export const TASK_STATUS_NEW = 0;
 export const TASK_STATUS_SOLVED = 1;

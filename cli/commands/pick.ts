@@ -5,6 +5,7 @@ import { execSync } from "child_process";
 import {
   SOLUTIONS_DIR_NAME,
   SOLUTIONS_FILE_NAME,
+  BREAKDOWN_FILE_NAME,
   TASK_STATUS_NEW,
   TASKS_DIR_NAME,
 } from "../lib/consts";
@@ -25,6 +26,8 @@ export default async function main() {
     acc += tasks[key].length;
     return acc;
   }, 0);
+  const breakdownPath = path.join(process.cwd(), BREAKDOWN_FILE_NAME);
+  const breakdownData = require(breakdownPath);
 
   if (solutionsCount === totalTasksCount) {
     console.log("🎉 Everything is solved!");
@@ -46,16 +49,25 @@ export default async function main() {
     return;
   }
 
-  while (true) {
+  let attemptsCount = 20;
+  let selected = false;
+
+  while (attemptsCount) {
+    attemptsCount -= 1;
+
     const category = pickCategory();
     const item =
       tasks[category][Math.floor(Math.random() * tasks[category].length)];
 
+    const [id] = item.split("-");
+
     if (fs.existsSync(path.join(solutionsDirPath, item))) {
       continue;
     }
+    if (breakdownData[id]) {
+      continue;
+    }
 
-    const [id] = item.split("-");
     solutionsData.active.tasks.unshift({
       id,
       status: TASK_STATUS_NEW,
@@ -67,8 +79,15 @@ export default async function main() {
 
     console.log("Next task: ", item);
     execSync(`code-insiders ${fileDest} -r`);
+    selected = true;
 
     break;
+  }
+
+  if (attemptsCount === 0 && !selected) {
+    console.log(
+      `No task was selected. Check breakdown tasks list to unblock task selection.`
+    );
   }
 }
 
