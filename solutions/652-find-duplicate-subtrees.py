@@ -24,4 +24,36 @@ class TreeNode:
 def findDuplicateSubtrees(
         root: Optional[TreeNode]) -> List[Optional[TreeNode]]:
 
-    pass
+    seen = set()
+    added = set()
+    ans = []
+
+    def dfs(node):
+        if not node:
+            return "X"
+
+        left = dfs(node.left)
+        right = dfs(node.right)
+        cur = str(node.val)
+        key = "|".join([left, right, cur])
+
+        if key in seen and key not in added:
+            ans.append(node)
+            added.add(key)
+
+        seen.add(key)
+
+        return key
+
+    dfs(root)
+
+    return ans
+
+
+# [0,0,0,0,null,null,0,null,null,|0]
+
+#              0
+#          0
+#    0       0
+# 0     0
+#x x   x x
