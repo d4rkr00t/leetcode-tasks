@@ -13,7 +13,7 @@
 from typing import List
 
 
-def kClosest(points: List[List[int]], K: int) -> List[List[int]]:
+def kClosest(points: List[List[int]], k: int) -> List[List[int]]:
     pass
 
 
