@@ -34,6 +34,20 @@ async function main() {
       100
     ).toFixed(0)}% | ${totalTasksCount - attemptedCount} tasks(s) left`
   );
+  console.log();
+  highLevelHistory();
+}
+
+function highLevelHistory() {
+  const asciichart = require("asciichart");
+  const solutionsPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_FILE_NAME);
+  const solutionsData = require(solutionsPath);
+  const data = solutionsData.archived
+    .reverse()
+    .map((solve) => solve.successRate * 100);
+  data.push(solutionsData.active.successRate * 100);
+
+  console.log(asciichart.plot(data, { height: 20 }));
 }
 
 module.exports = main;

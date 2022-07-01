@@ -19,21 +19,9 @@ async function main($inputs) {
     const [taskId] = $inputs;
     taskHistory(taskId);
     return;
+  } else {
+    console.log("Task id is required!");
   }
-
-  highLevelHistory();
-}
-
-function highLevelHistory() {
-  const asciichart = require("asciichart");
-  const solutionsPath = path__default["default"].join(process.cwd(), consts.SOLUTIONS_FILE_NAME);
-  const solutionsData = require(solutionsPath);
-  const data = solutionsData.archived
-    .reverse()
-    .map((solve) => solve.successRate * 100);
-  data.push(solutionsData.active.successRate * 100);
-
-  console.log(asciichart.plot(data, { height: 20 }));
 }
 
 function taskHistory(taskId) {
@@ -44,7 +32,7 @@ function taskHistory(taskId) {
   for (let solve of solutionsData.archived) {
     let taskData = solve.tasks.find((t) => t.id === "" + taskId);
     if (taskData) {
-      history.push(taskData.status === consts.TASK_STATUS_SOLVED ? "✅" : "❌");
+      history.push(taskStatusToIcon(taskData.status));
     }
   }
 
@@ -52,10 +40,20 @@ function taskHistory(taskId) {
     (t) => t.id === "" + taskId
   );
   if (taskData) {
-    history.push(taskData.status === consts.TASK_STATUS_SOLVED ? "✅" : "❌");
+    history.push(taskStatusToIcon(taskData.status));
   }
 
   console.log(history.join(" "));
+}
+
+function taskStatusToIcon(status) {
+  if (status === consts.TASK_STATUS_SOLVED) {
+    return "✅";
+  } else if (status === consts.TASK_STATUS_FAILED) {
+    return "❌";
+  } else {
+    return "🤷‍♂️";
+  }
 }
 
 module.exports = main;
