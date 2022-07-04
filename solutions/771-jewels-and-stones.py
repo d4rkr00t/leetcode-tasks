@@ -12,7 +12,13 @@
 
 
 def numJewelsInStones(jewels: str, stones: str) -> int:
-    pass
+    jset = set(jewels)
+    ans = 0
+    for ch in stones:
+        if ch in jset:
+            ans += 1
+
+    return ans
 
 
 print(numJewelsInStones(jewels="aA", stones="aAAbbbb"), 3)
