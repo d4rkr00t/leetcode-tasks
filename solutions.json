@@ -1,9 +1,21 @@
 {
   "active": {
-    "solved": 72,
+    "solved": 75,
     "failed": 10,
     "successRate": 0.88,
     "tasks": [
+      {
+        "id": "1088",
+        "status": 1
+      },
+      {
+        "id": "350",
+        "status": 1
+      },
+      {
+        "id": "135",
+        "status": 1
+      },
       {
         "id": "771",
         "status": 1
